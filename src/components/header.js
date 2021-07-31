@@ -1,6 +1,8 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import LinkedinSvg from "../assets/linkedin.svg"
+import MailSvg from "../assets/mail.svg"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -27,6 +29,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <a role="button" href="mailto:valeriiazub@sheridancollege.ca"><LinkedinSvg /></a>
+      <a role="button" target="_black" href="https://www.linkedin.com/in/val-z/"><MailSvg /></a>
+
     </div>
   </header>
 )

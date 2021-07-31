@@ -1,0 +1,213 @@
+---
+path: audi
+title: Web application — solution to onboard passengers with myAudi app.
+subTitle: Concept prototype inspired by mobility as a service at Audi RED x BIMM hackathon.
+landingImage: ../images/audi/home.png
+images:
+    - ../images/audi/home.png
+    - ../images/audi/audiHero.png
+    - ../images/audi/presentation.png
+    - ../images/audi/comparedDevices.png
+    - ../images/audi/audio.png
+    - ../images/audi/benchmarkVsSolution.png
+    - ../images/audi/climate.png
+    - ../images/audi/home.png
+    - ../images/audi/lights.png
+    - ../images/audi/pairing.png
+    - ../images/audi/seat-selection.png
+    - ../images/audi/seating.png
+    - ../images/audi/team-photo.png
+    - ../images/audi/team-presenting.png
+    - ../images/audi/wireframe-audio.png
+    - ../images/audi/wireframe-home.png
+    - ../images/audi/wireframe-lights.png
+    - ../images/audi/wireframe-seat-selection.png
+    - ../images/audi/wireframe-seating.png
+---
+
+<GatsbyImage alt="image" image={props.audiHero} />
+
+
+## About the challenge
+
+During those four weeks our team was exposed to the area of shared mobility and the future of car sales. On four hosted events we had a chance to **learn more about new technology implementations in mobility services from Audi professionals,** as well as talk **through our ideas with Audi engineers and sales representatives and dealers** and get fresh perspective on growing and highly competitive ride sharing market.
+
+<div>
+    <GatsbyImage alt="Our team giving presentation to the judges and participants" image={props["team-presenting"]} />
+    <span>Our team giving presentation to the judges and participants</span>
+</div>
+
+## Market Research
+
+Mobility as a service is rather wide topic that was covers many areas of user experience. Though talking with stakeholders as well as researching growing trends **our team was interested in passenger experience** as if you were in Uber or Lyft.
+
+## Looking at existing app myAudi
+
+We looked at the existing platform Audi has, myAudi. Now the app is just for the car owners and **does not allow for passengers to access all the premium features** inside the car from their phones.
+
+<div>
+    <GatsbyImage alt="Native app(left) VS designed solution(right)" image={props.benchmarkVsSolution} />
+    <span>Native app(left) VS designed solution(right)</span>
+</div>
+
+## User perspective
+
+When a passenger get into a car, they want the experience tailored to them. Imagine getting in an Uber and having access to seat massage! **Unfortunately, accessing premium features is awkward, and most customers probably won’t even realize the features exist** without being prompted by the driver.
+
+## Problem statement
+
+ > How might we help Audi customers gain more control of their vehicle and give them better access to all the premium features they may not be aware of?
+
+## Understanding passengers
+
+We defined four main options for the e-tron car users:
+
+<div>
+    <div>
+        <AudioVolume />
+        <h5>audio</h5>
+    </div>
+    <div>
+        <Idea />
+        <h5>lights</h5>
+    </div>
+    <div>
+        <InteriorSeat />
+        <h5>seat control</h5>
+    </div>
+    <div>
+        <ClimateAuto />
+        <h5>climate</h5>
+    </div>
+</div>
+
+## Areas of focus
+
+Although bringing value and control to the passenger was the main idea, we acknowledged **that driver is the only person who tends to control everything in the car while driving.** We want to tool though driver’s lenses in order to simplify the ride sharing process, not interfere.
+
+<div>
+    <div>
+        <div><ValetParking /></div>
+        <div>
+            <h2>Security</h2>
+            <p>Information confidentiality and travellers’ safety is a priority</p>
+        </div>
+    </div>
+    <div>
+        <div><CarHandover /></div>
+        <div>
+            <h2>Control</h2>
+            <p>Passengers and drivers need a safer way to control and make use of their vehicle</p>
+        </div>
+    </div>
+    <div>
+        <div><ConnectKey /></div>
+        <div>
+            <h2>Communication</h2>
+            <p>Working towards safer driving experiences involving driver/passenger communication through alternative means is essential.</p>
+        </div>
+    </div>
+</div>
+
+## Designing for Web
+
+Though talking to Audi engineers I have learned that software solutions that have access to car functionalities, such as on time start and truck opening have to go security checks in order to validate driver’s safety. **Software upgradability is low, because of the high deployment costs.** None of interviewed people would want to download an app for a single ride sharing experience.
+
+### myAudi application on the driver’s phone will act as a mediator between the ride-share and the car.
+
+<div>
+    <div>
+        <div><Code /></div>
+        <p>QR code connects user to the Audi web application</p>
+    </div>
+    <div>
+        <div><IndicatorsDown /></div>
+    </div>
+    <div>
+        <div></div>
+        <p>Passengers phone establishes connection with driver’s phone</p>
+    </div>
+    <div>
+        <div><IndicatorsUpDown /></div>
+    </div>
+    <div>
+        <div><CirclePhone /></div>
+        <p>Driver’s phone receives and tolerates requests from passengers’ phones</p>
+    </div>
+    <div>
+        <div><IndicatorsUpDown /></div>
+    </div>
+    <div>
+        <div><Car /></div>
+        <p>Driver’s phone receives and tolerates requests from passengers’ phones</p>
+    </div>
+</div>
+
+## Giving control to the driver
+
+A single car may have up to 6 passengers. All the 6 passengers might be changing the volume or air conditioning at the same time. Driving is still quite dangerous activity that needs full focus. With respect to driver we want to allow them to **set tolerances to specific seats in order to avoid features request conflicts between two or more paired devices and remain in control of the car.**
+
+## Low fidelity prototyping
+
+In order to recreate original experience being driven/riding Audi car the **Audi UI design system has been decided to be used.** However, low fidelity wire framing has been done to validate visual hirerarchy.
+
+<div>
+    <GatsbyImage alt="seat selection" image={props['wireframe-home']}/>
+    <GatsbyImage alt="seat selection" image={props['wireframe-seat-selection']}/>
+    <GatsbyImage alt="seat selection" image={props['wireframe-audio']}/>
+    <GatsbyImage alt="seat selection" image={props['wireframe-lights']}/>
+    <p>Missing volume here</p>
+    <GatsbyImage alt="seat selection" image={props['wireframe-seating']}/>
+</div>
+
+## User flow
+
+<div>
+    <GatsbyImage alt="Pairing" image={props.pairing} />
+    <div>
+        <h4>1. Pairing</h4>
+        <p>Using a QR-code displayed on car’s dashboard screen, sticker, or any other pairing method, a user would connect with a car through a driver’s phone. This requires the Internet connection.</p>
+    </div>
+</div>
+
+<div>
+    <GatsbyImage alt="Pairing" image={props['seat-selection']} />
+    <div>
+        <h4>2. Seat selection</h4>
+        <p>By selecting a seat a passenger is able to use custom features that is applied to their seat</p>
+    </div>
+</div>
+
+<div>
+    <GatsbyImage alt="Pairing" image={props.home} />
+    <div>
+        <h4>3. Logging in</h4>
+        <p>The device is connected to the system and ready for making changes.</p>
+    </div>
+</div>
+
+<div>
+    <GatsbyImage alt="Pairing" image={props.audio} />
+    <div>
+        <h4>4. Accessing features</h4>
+        <p>Depending on the tolerance the driver would se4t, a passenger would have access to the most used interior settings from their phone.</p>
+    </div>
+</div>
+
+<div>
+    <GatsbyImage alt="Pairing" image={props.lights} />
+    <GatsbyImage alt="Pairing" image={props.climate} />
+    <GatsbyImage alt="Pairing" image={props.seating} />
+</div>
+
+## Proud to win 2 place!
+
+<div>
+    <GatsbyImage alt="Pairing" image={props.['team-photo']} />
+    <span>Team photo with the President of Audi Canada Giorgio Delucchi</span>
+</div>
+
+## Lessons learned
+
+It was wonderful to se that a lot more teams developed solutions for dealerships and online tools for sales. Later I have learned that the marketing agency that was a sponsor has developed a route tracking app for e-tron, the latest Audi all electric SUV. The nature of the competition was allowing us to think big and design far into the future. **In the real world I would make sure to understand what each stakeholder wants and what are the business goals.**
+

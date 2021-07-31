@@ -1,0 +1,40 @@
+home:
+  topText: 👋 Hello! My name is Valeriia and I am a
+  title: public warrior for accessible information architecture in UX science
+  subText: I am always craving for design evolution and eye candy
+footer:
+  - title: Let's chat!
+    subTitle: A am always looking for new opportunities 😉
+  - title: Valeriia Zub
+    subTitle: val.zubb@gmail.com
+about:
+  title: About me
+  location: Toronto, Canada
+  profile: ../images/about/me.png
+  profileAlt: picture of Valeriia Zub
+  tags:
+    - Podcast content consumer
+    - Biking Amateur
+    - Environmentally driven vegetarian
+  descriptions:
+    - Designing with people and for people is something I love doing 9am-5pm every day on weekdays! I thrive when challenges start with “how might we”, and when solutions evolve and they are never final.
+    - I believe in many design principles and goals, and happy users is one of them. My previous coop at engineering driven company Aquatic Informatics has introduced me to accessible design from another angle.
+    - I’m excited to tell you more, let’s connect!
+work:
+  - title: UX Internship at Aquatic Informatics
+    description: Creating SSO an "umbrella" for multiple product families.
+    imageSrc: ../images/aqi/home.png
+    link: aqi
+    tags:
+      - Stakeholder Interview
+      - MVP and Target Mapping
+      - User Research
+      - UX/UI
+  - title: Passenger onboarding with myAudi app
+    description: Inspired by the theme "Mobility as a Service." Explored and research shared mobility. Presented at Audi RED x BIMM Hackathon.
+    imageSrc: ../images/audi/home.png
+    link: audi
+    tags:
+      - User Research
+      - Concept Prototyping
+      - UX/UI

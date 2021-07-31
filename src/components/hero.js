@@ -2,10 +2,10 @@ import * as React from "react"
 import PropTypes from "prop-types"
 
 const Hero = ({ topText, title, subText }) => (
-    <div>
-        {topText ? <p>{topText}</p> : null}
-        <h1>{title}</h1>
-        <p>{subText}</p>
+    <div style={{ marginBottom: 150 }}>
+        {topText ? <p className="f-24">{topText}</p> : null}
+        <h1 className="f-56">{title}</h1>
+        <p className="f-24">{subText}</p>
     </div>
 )
 

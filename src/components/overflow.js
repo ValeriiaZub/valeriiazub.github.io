@@ -3,7 +3,7 @@ import * as React from 'react';
 const Overflow = ({ children, className, caption }) => (
     <div className={`overflow-content ${className ?? ""}`}>
         {children}
-        {caption ? <p className="container">{caption}</p> : null}
+        {caption ? <p className="align-right container">{caption}</p> : null}
     </div>
 )
 

@@ -31,7 +31,7 @@ const AboutMe = () => {
             <div style={{ width: 150, height: 150 }}>
                 <GatsbyImage style={{ width: 150, height: 150 }} image={image} alt={about.profileAlt} />
             </div>
-            <div className="about">
+            <div className="w-666 pl-16">
                 <p>{about.location}</p>
                 <div className="inline">
                     {about.tags.map((tag, i) => <Tag key={`${tag}-${i}`} text={tag} />)}

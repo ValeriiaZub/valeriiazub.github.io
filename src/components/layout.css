@@ -26,7 +26,16 @@
   src:url('../fonts/Nanum_Gothic/NanumGothic-Regular.ttf') format('truetype');
 }
 
+/* colors */
+.background { background-color: #F5F5F7; }
 
+/* container */
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* default styling */
 * {
   box-sizing: border-box;
   font-family: gothic, sans-serif;
@@ -34,83 +43,60 @@
   color: #11154A;
   text-decoration: inherit;
 }
+body, html { padding: 0px; margin: 0px; background-color: #fafafa; }
+h1, h2, h3, h4, h5, h6 { font-family: myeongjo, sans-serif; font-style: bold; font-weight: 700; }
+p { font-size: 1.125rem; line-height: 1.875rem; }
 
-body, html {
-  padding: 0px;
-  margin: 0px;
-  background-color: #fafafa;
-}
+/* utility milanese */
+.inline {  display: inline-block; }
+.bold { font-weight: 700; }
+.f-24 { font-size: 24px; }
+.f-56 { font-size: 56px; }
+.f-regular { font-weight: 400; }
+.align-right { text-align: right;}
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: myeongjo, sans-serif;
-  font-style: bold;
-  font-weight: 700;
-}
+.z-index-1 { z-index: 1;}
+.z-index--1 { z-index: -1;}
 
-p {
-  font-size: 1.125rem;
-  line-height: 1.875rem;
-}
+.relative { position: relative;}
+.absolute { position: absolute; }
 
-.bold {
-  font-weight: 700;
-}
+/* Box styling */
+.border-radius-16 { border-radius: 1rem ;}
 
-.inline {
-  display: inline-block;
-}
+/* flex classes */
+.flex { display: flex; }
+.flex-center { align-content: center; align-items: center; }
+.flex-column { flex-direction: column; }
+.justify-between { justify-content: space-between; }
+.justify-center { justify-content: center; }
 
-.flex {
-  display: flex;
-}
-
-.flex-center {
-  align-content: center;
-  align-items: center;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
+/* width, height margin padding utility classes */
 .w-40 { width: 40%;}
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
 .w-80 { width: 80%; }
 .w-100 { width: 100%; }
+.w-400 { width: 400px; }
 .w-500 { width: 525px; }
 .w-600 { width: 600px; }
-
+.w-666 { width: 666px; }
 .h-100 { height: 100%; }
-
-.f-24 {
-  font-size: 24px;
-}
-
-.f-56 {
-  font-size: 56px;;
-}
-
-.f-regular {
-  font-weight: 400;
-}
-
+.h-375 { height: 375px;}
+.h-400 { height: 400px; }
+/* padding */
 .p-16 { padding: 1rem; }
 .pr-16 { padding-right: 1rem;}
+.pl-16 { padding-left: 1rem; }
+.pr-32 { padding-right: 2rem;}
+.pl-32 { padding-left: 2rem;}
 .pl-48 { padding-left: 3rem; }
-
+/* margin */
 .mr-16 { margin-right: 1rem; }
 .ml-16 { margin-left: 1rem; }
 .mb-16 { margin-bottom: 1rem; }
 .mt-16 { margin-top: 1rem; }
+.ml-40 { margin-left: 42.5%;}
 .mt-50 { margin-top: 50px;}
 .mb-50 { margin-bottom: 75px; }
 .ml-60 { margin-left: 60%;}
@@ -118,44 +104,11 @@ p {
 .mt-100 { margin-top: 100px;}
 .m-auto { margin: auto; }
 
-.about {
-  width: 666px;
-  padding-left: 1rem;
-}
-
+/* Component Specific styles */
 .footer {
   margin-top: 11rem;
   margin-bottom: 11rem;
 }
-
-.box {
-  background-color: #F5F5F7;
-  border-radius: 1rem;
-  margin-bottom: 4rem;
-  padding: 0rem 2rem 0rem 2rem;
-  height: 400px;
-  position: relative;
-  z-index: 1;
-}
-
-.box--image {
-  width: 400px;
-  height: 400px;
-  position: absolute;
-  z-index: -1;
-}
-
-.box--image > .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
-  width: inherit;
-  height: inherit;
-}
-
-.box--content {
-  width: 500px;
-  margin-left: 416px;
-  margin-top: 1.5rem;
-}
-
 .tag {
   border: 3px solid #C0D4F4;
   border-radius: 2rem;
@@ -165,40 +118,27 @@ p {
   display: inherit;
   background-color: #fafafa;
 }
-
-
 .overflow-content {
   width: 140%;
   margin-left: -20%;
 }
 
-.overflow-content > .container {
-  text-align: right;
-}
-
-.container {
-  width: 1000px;
-  margin: auto;
-}
-
+/* markdown styles */
 .markdown > h2 {
   font-size: 50px;
   margin-top: 90px;
   width: 666px;
   margin-bottom: 28px;
 }
-
 .markdown > h3 {
   font-size: 24px;
   margin-top: 36px;
   margin-bottom: .75rem;
   width: 600px;
 }
-
 .markdown > p {
   width: 600px;
 }
-
 .markdown > blockquote {
   width: 99.58vw;
   position: relative;
@@ -212,10 +152,16 @@ p {
   background-color: #F5F5F7;
   padding: 4rem 0rem;
 }
-
 .markdown > blockquote > p {
   width: 600px;
   font-size: 24px;
   font-family: myeongjo, sans-serif;
   font-weight: 700;
+}
+
+@media only screen and (max-width: 1016px) {
+  .container {
+    width: 100%;
+    padding: 0rem 1rem;
+  }
 }

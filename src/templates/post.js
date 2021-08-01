@@ -9,6 +9,7 @@ import Layout from '../components/layout';
 
 // All off the personal components imported
 import Grid from '../components/grid'
+import Overflow from '../components/overflow'
 
 // All of the svgs that we'll hopefully ever need
 import ArrowLeft from '../assets/arrow_left.svg';
@@ -35,6 +36,7 @@ import BoxImage from '../components/boxImage';
 const shortcodes = {
     Link,
     Grid,
+    Overflow,
     GatsbyImage,
     ArrowLeft,
     ArrowRight,
@@ -78,8 +80,7 @@ const Post = ({ data }) => {
             </MDXProvider>
         </div>
         <section>
-            <h2>Discovere more of my work</h2>
-
+            <h2 className="f-56 mt-100">Discover more of my work</h2>
             <BoxImage
                 image={data.workYaml.work.imageSrc}
                 title={data.workYaml.work.title}

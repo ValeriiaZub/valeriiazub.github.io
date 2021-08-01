@@ -52,6 +52,9 @@ p {
   line-height: 1.875rem;
 }
 
+.bold {
+  font-weight: 700;
+}
 
 .inline {
   display: inline-block;
@@ -81,10 +84,12 @@ p {
 .w-40 { width: 40%;}
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
+.w-80 { width: 80%; }
 .w-100 { width: 100%; }
-.w-500 { width: 500px; }
+.w-500 { width: 525px; }
 .w-600 { width: 600px; }
 
+.h-100 { height: 100%; }
 
 .f-24 {
   font-size: 24px;
@@ -100,6 +105,7 @@ p {
 
 .p-16 { padding: 1rem; }
 .pr-16 { padding-right: 1rem;}
+.pl-48 { padding-left: 3rem; }
 
 .mr-16 { margin-right: 1rem; }
 .ml-16 { margin-left: 1rem; }
@@ -108,6 +114,9 @@ p {
 .mt-50 { margin-top: 50px;}
 .mb-50 { margin-bottom: 75px; }
 .ml-60 { margin-left: 60%;}
+.mr-90 { margin-right: 90px;}
+.mt-100 { margin-top: 100px;}
+.m-auto { margin: auto; }
 
 .about {
   width: 666px;
@@ -157,16 +166,26 @@ p {
   background-color: #fafafa;
 }
 
+
+.overflow-content {
+  width: 140%;
+  margin-left: -20%;
+}
+
+.overflow-content > .container {
+  text-align: right;
+}
+
 .container {
   width: 1000px;
   margin: auto;
 }
 
-
 .markdown > h2 {
   font-size: 50px;
   margin-top: 90px;
-  width: 600px;
+  width: 666px;
+  margin-bottom: 28px;
 }
 
 .markdown > h3 {
@@ -181,12 +200,16 @@ p {
 }
 
 .markdown > blockquote {
-  width: 100%;
+  width: 99.58vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+  
+  overflow: hidden;
   display: flex;
   justify-content: center;
   text-align: center;
   background-color: #F5F5F7;
-  margin: 0px;
   padding: 4rem 0rem;
 }
 

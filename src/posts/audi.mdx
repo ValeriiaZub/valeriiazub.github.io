@@ -27,7 +27,7 @@ images:
 
 <GatsbyImage alt="image" image={props.audiHero} />
 
-<Grid cols={4}> 
+<Grid cols={4} className="mt-100"> 
     <div className="p-16">
         <h4 className="f-24 mb-16 mt-16">Team</h4>
         <p>Alex Borthwick, Josh Vandenbor</p>
@@ -50,10 +50,9 @@ images:
 
 During those four weeks our team was exposed to the area of shared mobility and the future of car sales. On four hosted events we had a chance to **learn more about new technology implementations in mobility services from Audi professionals,** as well as talk **through our ideas with Audi engineers and sales representatives and dealers** and get fresh perspective on growing and highly competitive ride sharing market.
 
-<div>
+<Overflow className="mt-50" caption="Our team giving presentation to the judges and participants">
     <GatsbyImage alt="Our team giving presentation to the judges and participants" image={props["team-presenting"]} />
-    <span>Our team giving presentation to the judges and participants</span>
-</div>
+</Overflow>
 
 ## Market Research
 
@@ -63,10 +62,9 @@ Mobility as a service is rather wide topic that was covers many areas of user ex
 
 We looked at the existing platform Audi has, myAudi. Now the app is just for the car owners and **does not allow for passengers to access all the premium features** inside the car from their phones.
 
-<div>
+<Overflow caption="Native app(left) VS designed solution(right)">
     <GatsbyImage alt="Native app(left) VS designed solution(right)" image={props.benchmarkVsSolution} />
-    <span>Native app(left) VS designed solution(right)</span>
-</div>
+</Overflow> 
 
 ## User perspective
 
@@ -81,19 +79,19 @@ When a passenger get into a car, they want the experience tailored to them. Imag
 We defined four main options for the e-tron car users:
 
 <Grid cols={4} className="w-600">
-    <div className="flex flex-center flex-column justify-between">
+    <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
         <AudioVolume />
         <h5 className="f-24 mb-16 mt-16">audio</h5>
     </div>
-    <div className="flex flex-center flex-column justify-between">
+    <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
         <Idea />
         <h5 className="f-24 mb-16 mt-16">lights</h5>
     </div>
-    <div className="flex flex-center flex-column justify-between">
+    <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
         <InteriorSeat />
         <h5 className="f-24 mb-16 mt-16">seat control</h5>
     </div>
-    <div className="flex flex-center flex-column justify-between">
+    <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
         <ClimateAuto />
         <h5 className="f-24 mb-16 mt-16">climate</h5>
     </div>
@@ -103,24 +101,24 @@ We defined four main options for the e-tron car users:
 
 Although bringing value and control to the passenger was the main idea, we acknowledged **that driver is the only person who tends to control everything in the car while driving.** We want to tool though driver’s lenses in order to simplify the ride sharing process, not interfere.
 
-<Grid rows={4} className="w-500">
+<Grid rows={3} className="w-500">
     <div className="flex flex-center">
-        <div><ValetParking /></div>
-        <div className="p-16">
+        <div className="h-100 mt-50"><ValetParking /></div>
+        <div className="pl-48">
             <h2 className="f-24 mb-16 mt-16">Security</h2>
             <p>Information confidentiality and travellers’ safety is a priority</p>
         </div>
     </div>
     <div className="flex flex-center">
-        <div><CarHandover /></div>
-        <div className="p-16">
+        <div className="h-100 mt-50"><CarHandover /></div>
+        <div className="pl-48">
             <h2 className="f-24 mb-16 mt-16">Control</h2>
             <p>Passengers and drivers need a safer way to control and make use of their vehicle</p>
         </div>
     </div>
     <div className="flex flex-center">
-        <div><ConnectKey /></div>
-        <div className="p-16">
+        <div className="h-100 mt-50"><ConnectKey /></div>
+        <div className="pl-48">
             <h2 className="f-24 mb-16 mt-16">Communication</h2>
             <p>Working towards safer driving experiences involving driver/passenger communication through alternative means is essential.</p>
         </div>
@@ -133,32 +131,27 @@ Though talking to Audi engineers I have learned that software solutions that hav
 
 ### myAudi application on the driver’s phone will act as a mediator between the ride-share and the car.
 
-<div>
-    <div>
-        <div><Code /></div>
-        <p>QR code connects user to the Audi web application</p>
-    </div>
-    <div>
-        <div><IndicatorsDown /></div>
-    </div>
-    <div>
-        <div></div>
-        <p>Passengers phone establishes connection with driver’s phone</p>
-    </div>
-    <div>
-        <div><IndicatorsUpDown /></div>
-    </div>
-    <div>
-        <div><CirclePhone /></div>
-        <p>Driver’s phone receives and tolerates requests from passengers’ phones</p>
-    </div>
-    <div>
-        <div><IndicatorsUpDown /></div>
-    </div>
-    <div>
-        <div><Car /></div>
-        <p>Driver’s phone receives and tolerates requests from passengers’ phones</p>
-    </div>
+<div style={{
+    display: 'grid',
+    gridTemplateColumns: '100px 1fr',
+    justifyItems: 'center',
+    gridGap: '12px',
+    marginTop: 36
+}}>
+    <div className="flex flex-center"><Code /></div>
+    <p className="w-100 bold">QR code connects user to the Audi web application</p>
+    <div className="flex flex-center"><IndicatorsDown /></div>
+    <div></div>
+    <div className="flex flex-center"><MobilePhone /></div>
+    <p className="w-100 bold">Passengers phone establishes connection with driver’s phone</p>
+    <div className="flex flex-center"><IndicatorsUpDown /></div>
+    <div></div>
+    <div className="flex flex-center"><CirclePhone /></div>
+    <p className="w-100 bold">Driver’s phone receives and tolerates requests from passengers’ phones</p>
+    <div className="flex flex-center"><IndicatorsUpDown /></div>
+    <div></div>
+    <div className="flex flex-center"><Car /></div>
+    <p className="w-100 bold">Driver’s phone receives and tolerates requests from passengers’ phones</p>
 </div>
 
 ## Giving control to the driver
@@ -180,50 +173,49 @@ In order to recreate original experience being driven/riding Audi car the **Audi
 
 ## User flow
 
-<div>
+<Grid cols={2}>
     <GatsbyImage alt="Pairing" image={props.pairing} />
-    <div>
-        <h4>1. Pairing</h4>
-        <p>Using a QR-code displayed on car’s dashboard screen, sticker, or any other pairing method, a user would connect with a car through a driver’s phone. This requires the Internet connection.</p>
+    <div className="flex flex-center justify-center flex-column">
+        <h4 className="w-100 f-24 mb-16 mt-16">1. Pairing</h4>
+        <p className="mr-90">Using a QR-code displayed on car’s dashboard screen, sticker, or any other pairing method, a user would connect with a car through a driver’s phone. This requires the Internet connection.</p>
     </div>
-</div>
+</Grid>
 
-<div>
+<Grid cols={2}>
     <GatsbyImage alt="Pairing" image={props['seat-selection']} />
-    <div>
-        <h4>2. Seat selection</h4>
-        <p>By selecting a seat a passenger is able to use custom features that is applied to their seat</p>
+    <div className="flex flex-center justify-center flex-column">
+        <h4 className="w-100 f-24 mb-16 mt-16">2. Seat selection</h4>
+        <p className="mr-90">By selecting a seat a passenger is able to use custom features that is applied to their seat</p>
     </div>
-</div>
+</Grid>
 
-<div>
+<Grid cols={2}>
     <GatsbyImage alt="Pairing" image={props.home} />
-    <div>
-        <h4>3. Logging in</h4>
-        <p>The device is connected to the system and ready for making changes.</p>
+    <div className="flex flex-center justify-center flex-column">
+        <h4 className="w-100 f-24 mb-16 mt-16">3. Logging in</h4>
+        <p className="mr-90">The device is connected to the system and ready for making changes.</p>
     </div>
-</div>
+</Grid>
 
-<div>
+<Grid cols={2}>
     <GatsbyImage alt="Pairing" image={props.audio} />
-    <div>
-        <h4>4. Accessing features</h4>
-        <p>Depending on the tolerance the driver would se4t, a passenger would have access to the most used interior settings from their phone.</p>
+    <div className="flex flex-center justify-center flex-column">
+        <h4 className="w-100 f-24 mb-16 mt-16">4. Accessing features</h4>
+        <p className="mr-90">Depending on the tolerance the driver would se4t, a passenger would have access to the most used interior settings from their phone.</p>
     </div>
-</div>
+</Grid>
 
-<div>
+<Grid cols={3}>
     <GatsbyImage alt="Pairing" image={props.lights} />
     <GatsbyImage alt="Pairing" image={props.climate} />
     <GatsbyImage alt="Pairing" image={props.seating} />
-</div>
+</Grid>
 
 ## Proud to win 2 place!
 
-<div>
+<Overflow caption="Team photo with the President of Audi Canada Giorgio Delucchi">
     <GatsbyImage alt="Pairing" image={props['team-photo']} />
-    <span>Team photo with the President of Audi Canada Giorgio Delucchi</span>
-</div>
+</Overflow>
 
 ## Lessons learned
 

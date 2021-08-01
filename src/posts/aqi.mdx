@@ -76,10 +76,9 @@ Through mutual effort the team has been conducting series of stakeholders interv
     </div>
 </Grid>
 
-<div>
+<Overflow caption="Interview documentation process. Blured due to confidentiality.">
     <GatsbyImage alt="Interview documentation process. Blured due to confidentiality" image={props['miro-board-interviews']} />
-    <span>Interview documentation process. Blured due to confidentiality.</span>
-</div>
+</Overflow>
 
 ## Constrains
 
@@ -123,19 +122,17 @@ The one of many points made by the stakeholders was single sign on. UX got onboa
 
 Thus, the team split competitors and single sign in models for market research and inspiration.
 
-<div>
+<Overflow caption="Considered products for benchmarking">
     <GatsbyImage alt="Considered products for benchmarking" image={props["benchamarking-miro-board"]} />
-    <span>Considered products for benchmarking</span>
-</div>
+</Overflow>
 
 ## Collaborative wire
 
 As a design team we all have separately created set of wireframes for both MVP and target. In a design meeting we used dot voting to sort out proposed features and select a user flow.
 
-<div>
+<Overflow caption="Wireframes done by me for taget (left) and MVP (right). Dot-voted by team members">
     <GatsbyImage alt="Wireframes done by me for taget (left) and MVP {right). Dot-voted by team members" image={props["collaborative-wireframimg"]} />
-    <span>Wireframes done by me for taget (left) and MVP (right). Dot-voted by team members</span>
-</div>
+</Overflow>
 
 ## Key points
 
@@ -193,81 +190,89 @@ Both user and stakeholder UI discussions have given us feedback to reconsider ma
 
 ## Sign in
 
-<Grid cols={2}>
-    <div className="p-16">
-        <GatsbyImage alt="" image={props['login-v1']} />
-        <div>
-            <h4 className="f-24 mb-16 mt-16">Problem: no band identity</h4>
-            <p>At the beginning sign in page looked basic and told very little story about the brand.</p>
+<Overflow>
+    <Grid cols={2}>
+        <div className="p-16">
+            <GatsbyImage alt="" image={props['login-v1']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Problem: no band identity</h4>
+                <p>At the beginning sign in page looked basic and told very little story about the brand.</p>
+            </div>
         </div>
-    </div>
-    <div className="p-16">
-        <GatsbyImage alt="" image={props['login-v2']} />
-        <div>
-            <h4 className="f-24 mb-16 mt-16">Solution: loads of marketing space</h4>
-            <p>Improved layout idea allows for marketing and brand-recognition space.</p>
+        <div className="p-16">
+            <GatsbyImage alt="" image={props['login-v2']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Solution: loads of marketing space</h4>
+                <p>Improved layout idea allows for marketing and brand-recognition space.</p>
+            </div>
         </div>
-    </div>
-</Grid>
+    </Grid>
+</Overflow>
 
 ## Home
 
-<Grid cols={2}>
-    <div className="p-16">
-        <GatsbyImage alt="" image={props['home-v1']} />
-        <div>
-            <h4>Problem: “not an eye candy” - user x</h4>
-            <p>Although the page clearly communicated its purpose, none of the users showed excitement towards the tool.</p>
+<Overflow>
+    <Grid cols={2}>
+        <div className="p-16">
+            <GatsbyImage alt="" image={props['home-v1']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Problem: “not an eye candy” - user x</h4>
+                <p>Although the page clearly communicated its purpose, none of the users showed excitement towards the tool.</p>
+            </div>
         </div>
-    </div>
-    <div className="p-16">
-        <GatsbyImage alt="" image={props['home-v2']} />
-        <div>
-            <h4>Solution: launcher takes up space</h4>
-            <p>Solution: launcher takes up space</p>
+        <div className="p-16">
+            <GatsbyImage alt="" image={props['home-v2']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Solution: launcher takes up space</h4>
+                <p>Giving more space to the launcher gives an opportunity for pleasant visuals to stand out.</p>
+            </div>
         </div>
-    </div>
-</Grid>
+    </Grid>
+</Overflow>
 
 
 ## Discover
 
-<Grid cols={2}>
-    <div className="p-16">
-        <GatsbyImage alt="" image={props['discover-v1']} />
-        <div>
-            <h4>Problem: ’too much selling” - user y</h4>
-            <p>Discover space felt like a store where you cannot buy anything. Mostly because none of our users do not have the authority to purchase software.</p>
+<Overflow>
+    <Grid cols={2}>
+        <div className="p-16">
+            <GatsbyImage alt="" image={props['discover-v1']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Problem: ’too much selling” - user y</h4>
+                <p>Discover space felt like a store where you cannot buy anything. Mostly because none of our users do not have the authority to purchase software.</p>
+            </div>
         </div>
-    </div>
-    <div className="p-16">
-        <GatsbyImage alt="" image={props['discover-v2']} />
-        <div>
-            <h4>Solution: visually pleasing content</h4>
-            <p>Following same pattern more visuals and more space were used.</p>
+        <div className="p-16">
+            <GatsbyImage alt="" image={props['discover-v2']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Solution: visually pleasing content</h4>
+                <p>Following same pattern more visuals and more space were used.</p>
+            </div>
         </div>
-    </div>
-</Grid>
-
+    </Grid>
+</Overflow>
 
 ## Cross-app navigation
 
-<Grid cols={2}>
-    <div className="p-16">
-        <GatsbyImage alt="" image={props['app-switcher']} />
-        <div>
-            <h4>Problem: Conflicting visual hierarchy</h4>
-            <p>Two of the products already had within the app-switcher. Thus app home link had to be integrated within native switcher in the apps. And because each app is different is is incredibly hard to achieve perfect visual hierarchy and consistency balance.</p>
+<Overflow>
+    <Grid cols={2}>
+        <div className="p-16">
+            <GatsbyImage alt="" image={props['app-switcher']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Problem: Conflicting visual hierarchy</h4>
+                <p>Two of the products already had within the app-switcher. Thus app home link had to be integrated within native switcher in the apps. And because each app is different is is incredibly hard to achieve perfect visual hierarchy and consistency balance.</p>
+            </div>
         </div>
-    </div>
-    <div className="p-16">
-        <GatsbyImage alt="" image={props['App-switcher-target']} />
-        <div>
-            <h4>Solution: project-based notifications</h4>
-            <p>Instead of linking people to the apps, the ideas was to link people to the projects within the app by using notification styling.</p>
+        <div className="p-16">
+            <GatsbyImage alt="" image={props['App-switcher-target']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Solution: project-based notifications</h4>
+                <p>Instead of linking people to the apps, the ideas was to link people to the projects within the app by using notification styling.</p>
+            </div>
         </div>
-    </div>
-</Grid>
+    </Grid>
+</Overflow>
+
 
 ## Support’s and Stakeholders’s feedback
 
@@ -287,7 +292,9 @@ Because there are many users who only have one app to launch, having marketing a
 
 Unfortunately the design yet was still far from the MVP vision. Thus, I had to narrow my design to digestible to build MVP version at the same time considering branding uncertainty.
 
-<GatsbyImage alt="" image={props['home-final-safari']} />
+<Overflow>
+    <GatsbyImage alt="" image={props['home-final-safari']} />
+</Overflow>
 
 ## Lessons learned
 
@@ -307,7 +314,6 @@ Although I have heard that different people use different vocabularies, I was fa
 
 App home has been one of the most challenging yet rewarding projects I have worked on as a product designer. I learned how to take on multiple tasks at the same time, collaborate with other designers, take feedback and respond to it. I discovered that the true design process is never linear, and always multidimensional. This has been a summer full of learnings and I can’t wait to apply all of them in my future projects.
 
-<div>
+<Overflow caption="I was lucky to visit AQI office overlooking downtown Vancouver.">
     <GatsbyImage alt="" image={props['me-in-the-office']} />
-    <span>I was lucky to visit AQI office overlooking downtown Vancouver.</span>
-</div>
+</Overflow>

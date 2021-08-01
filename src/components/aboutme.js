@@ -27,11 +27,11 @@ const AboutMe = () => {
     const image = getImage(about.profile);
     return <div style={{ marginTop: 80 }}>
         <h2 className="f-56">{about.title}</h2>
-        <div className="flex">
-            <div style={{ width: 150, height: 150 }}>
-                <GatsbyImage style={{ width: 150, height: 150 }} image={image} alt={about.profileAlt} />
+        <div className="flex m-flex-column">
+            <div className="w-150 h-150 m-w-300 m-h-300 m-m-auto">
+                <GatsbyImage style={{ width: 'inherit', height: 'inherit' }} image={image} alt={about.profileAlt} />
             </div>
-            <div className="w-666 pl-16">
+            <div className="w-666 pl-16 m-w-100">
                 <p>{about.location}</p>
                 <div className="inline">
                     {about.tags.map((tag, i) => <Tag key={`${tag}-${i}`} text={tag} />)}

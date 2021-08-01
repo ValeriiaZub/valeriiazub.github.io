@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import SocialLinks from "./socialLinks"
 
 const Header = ({ email, linkedin }) => (
-  <header style={{ height: 200 }}>
+  <header className="h-200">
     <SocialLinks title="Valeriia Zub" email={email} linkedin={linkedin} />
   </header>
 )

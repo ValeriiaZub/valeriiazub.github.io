@@ -4,7 +4,7 @@ import PropTypes from "prop-types"
 const Hero = ({ topText, title, subText }) => (
     <div style={{ marginBottom: 150 }}>
         {topText ? <p className="f-24">{topText}</p> : null}
-        <h1 className="f-56">{title}</h1>
+        <h1 className={`${topText ? "" : "mt-0"} f-56`}>{title}</h1>
         <p className="f-24">{subText}</p>
     </div>
 )

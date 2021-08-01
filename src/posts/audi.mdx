@@ -27,7 +27,7 @@ images:
 
 <GatsbyImage alt="image" image={props.audiHero} />
 
-<Grid cols={4} className="mt-100"> 
+<Grid cols={4} mobileCols={2} mobileRows={2} className="mt-100"> 
     <div className="p-16">
         <h4 className="f-24 mb-16 mt-16">Team</h4>
         <p>Alex Borthwick, Josh Vandenbor</p>
@@ -78,22 +78,22 @@ When a passenger get into a car, they want the experience tailored to them. Imag
 
 We defined four main options for the e-tron car users:
 
-<Grid cols={4} className="w-600">
+<Grid cols={4} mobileCols={2} mobileRows={2} className="w-600 m-w-100 justify-center">
     <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
         <AudioVolume />
-        <h5 className="f-24 mb-16 mt-16">audio</h5>
+        <h5 className="f-24 mb-16 mt-16 align-center">audio</h5>
     </div>
     <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
         <Idea />
-        <h5 className="f-24 mb-16 mt-16">lights</h5>
+        <h5 className="f-24 mb-16 mt-16 align-center">lights</h5>
     </div>
     <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
         <InteriorSeat />
-        <h5 className="f-24 mb-16 mt-16">seat control</h5>
+        <h5 className="f-24 mb-16 mt-16 align-center">seat control</h5>
     </div>
     <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
         <ClimateAuto />
-        <h5 className="f-24 mb-16 mt-16">climate</h5>
+        <h5 className="f-24 mb-16 mt-16 align-center">climate</h5>
     </div>
 </Grid>
 
@@ -101,7 +101,7 @@ We defined four main options for the e-tron car users:
 
 Although bringing value and control to the passenger was the main idea, we acknowledged **that driver is the only person who tends to control everything in the car while driving.** We want to tool though driver’s lenses in order to simplify the ride sharing process, not interfere.
 
-<Grid rows={3} className="w-500">
+<Grid rows={3} className="w-500 m-w-100">
     <div className="flex flex-center">
         <div className="h-100 mt-50"><ValetParking /></div>
         <div className="pl-48">
@@ -162,7 +162,7 @@ A single car may have up to 6 passengers. All the 6 passengers might be changing
 
 In order to recreate original experience being driven/riding Audi car the **Audi UI design system has been decided to be used.** However, low fidelity wire framing has been done to validate visual hirerarchy.
 
-<Grid cols={3} rows={2}>
+<Grid cols={3} rows={2} mobileCols={2} mobileRows={3}>
     <GatsbyImage alt="seat selection" image={props['wireframe-home']}/>
     <GatsbyImage alt="seat selection" image={props['wireframe-seat-selection']}/>
     <GatsbyImage alt="seat selection" image={props['wireframe-audio']}/>

@@ -54,6 +54,7 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
 .f-56 { font-size: 56px; }
 .f-regular { font-weight: 400; }
 .align-right { text-align: right;}
+.align-center { text-align: center;}
 
 .z-index-1 { z-index: 1;}
 .z-index--1 { z-index: -1;}
@@ -69,7 +70,7 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
 .flex-center { align-content: center; align-items: center; }
 .flex-column { flex-direction: column; }
 .justify-between { justify-content: space-between; }
-.justify-center { justify-content: center; }
+.justify-center { justify-content: center; justify-items: center; }
 
 /* width, height margin padding utility classes */
 .w-40 { width: 40%;}
@@ -212,6 +213,7 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
   .m-m-auto { margin: auto;}
   .m-pt-16 { padding-top: 16px;}
   .m-pt-0 { padding-top: 0px;}
+  .mr-90 { margin-right: 1rem;}
   .pr-32 { padding-right: 1rem;}
   .pl-32 { padding-left: 1rem;}
   .m-pt-32 { padding-top: 2rem;}

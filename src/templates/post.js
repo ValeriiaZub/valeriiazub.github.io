@@ -1,9 +1,14 @@
 import * as React from 'react';
-import Layout from '../components/layout';
-import { MDXProvider } from "@mdx-js/react"
 import { graphql, Link } from "gatsby";
+import { MDXProvider } from "@mdx-js/react"
 import { getImage, GatsbyImage } from 'gatsby-plugin-image';
 import { MDXRenderer } from 'gatsby-plugin-mdx';
+
+import Hero from '../components/hero';
+import Layout from '../components/layout';
+
+// All off the personal components imported
+import Grid from '../components/grid'
 
 // All of the svgs that we'll hopefully ever need
 import ArrowLeft from '../assets/arrow_left.svg';
@@ -25,9 +30,11 @@ import Settings from '../assets/settings.svg';
 import ValetParking from '../assets/valet-parking.svg';
 import VolumeDown from '../assets/volume_down.svg';
 import VolumeUp from '../assets/volume_up.svg';
+import BoxImage from '../components/boxImage';
 
 const shortcodes = {
     Link,
+    Grid,
     GatsbyImage,
     ArrowLeft,
     ArrowRight,
@@ -51,7 +58,7 @@ const shortcodes = {
 }
 
 const Post = ({ data }) => {
-    const { images } = data.mdx.frontmatter;
+    const { images, subTitle, title } = data.mdx.frontmatter;
     const preparedImages = images.reduce((obj, image) => {
         const addition = image ? { [image.name]: getImage(image) } : {}
         return ({
@@ -60,32 +67,58 @@ const Post = ({ data }) => {
         });
     }, {});
     return <Layout>
-        {/* <GatsbyImage alt="Landing Picture" image={preparedImages.home} /> */}
-        <MDXProvider
-            components={shortcodes}
-        >
-            <MDXRenderer frontmatter={data.mdx.frontmatter} {...preparedImages}>
-                {data.mdx.body}
-            </MDXRenderer>
-        </MDXProvider>
+        <Hero title={title} subText={subTitle} />
+        <div className="markdown">
+            <MDXProvider
+                components={shortcodes}
+            >
+                <MDXRenderer frontmatter={data.mdx.frontmatter} {...preparedImages}>
+                    {data.mdx.body}
+                </MDXRenderer>
+            </MDXProvider>
+        </div>
         <section>
             <h2>Discovere more of my work</h2>
+
+            <BoxImage
+                image={data.workYaml.work.imageSrc}
+                title={data.workYaml.work.title}
+                description={data.workYaml.work.description}
+                tags={data.workYaml.work.tags}
+                link={`/${data.workYaml.work.link}`}
+            />
         </section>
     </Layout>
 }
 
 export const query = graphql`
-    query($id: String!) {
+    query($id: String!, $company: String!) {
         mdx(id: { eq: $id }) {
             id
             body
             frontmatter {
+                subTitle
+                title
                 images {
                     childImageSharp {
                         gatsbyImageData(layout: FULL_WIDTH)
                     }
                     name
                 }
+            }
+        }
+        workYaml(work: {readMore: {eq: $company}}) {
+            work {
+                description
+                imageSrc {
+                    childImageSharp {
+                        gatsbyImageData(width: 400, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+                    }
+                }
+                link
+                tags
+                title
+                readMore
             }
         }
     }

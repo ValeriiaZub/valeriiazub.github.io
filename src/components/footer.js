@@ -4,18 +4,16 @@ import SocialLinks from './socialLinks';
 
 
 const Footer = ({ footerTitles, email, linkedin }) => {
-    return <footer>
+    return <footer className="footer">
         <div>
-            {footerTitles.map(({ subTitle, title }) =>
-                <div className="w-50 inline" key={title}>
-                    <h4>{title}</h4>
+            {footerTitles.map(({ subTitle, title }, i) =>
+                <div className={`${i === 0 ? 'w-60' : 'w-40'} inline`} key={title}>
+                    <h4 className="f-24">{title}</h4>
                     <p>{subTitle}</p>
                 </div>
             )}
         </div>
-        <div>
-            <SocialLinks email={email} linkedin={linkedin} />
-        </div>
+        <SocialLinks className="ml-60 w-40" email={email} linkedin={linkedin} />
     </footer>
 }
 

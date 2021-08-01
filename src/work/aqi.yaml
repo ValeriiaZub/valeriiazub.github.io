@@ -1,9 +1,11 @@
-metadata:
-  - title: Team
-    description: Jacqueline Gullion (Senior UX designer at Aquatic Informatics) Jacob Burd(UX designer at Hack)
-  - title: Role
-    description: UI designer
-  - title: Tools
-    description: Stakeholder interviews, MVP & Target mapping, User Research, Product Design, UX
-  - title: Duration
-    description: 9 weeks
+work:
+  link: aqi
+  title: UX Internship at Aquatic Informatics
+  description: Creating SSO an "umbrella" for multiple product families.
+  imageSrc: ../images/aqi/home.png
+  readMore: audi
+  tags:
+    - Stakeholder Interview
+    - MVP and Target Mapping
+    - User Research
+    - UX/UI

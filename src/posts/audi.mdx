@@ -27,6 +27,24 @@ images:
 
 <GatsbyImage alt="image" image={props.audiHero} />
 
+<Grid cols={4}> 
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Team</h4>
+        <p>Alex Borthwick, Josh Vandenbor</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Role</h4>
+        <p>Visual Designer</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Tools</h4>
+        <p>Generative Brainstorming, Stakeholder Interviews Paper prototyping, In</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Duration</h4>
+        <p>4 weeks</p>
+    </div>
+</Grid>
 
 ## About the challenge
 
@@ -62,52 +80,52 @@ When a passenger get into a car, they want the experience tailored to them. Imag
 
 We defined four main options for the e-tron car users:
 
-<div>
-    <div>
+<Grid cols={4} className="w-600">
+    <div className="flex flex-center flex-column justify-between">
         <AudioVolume />
-        <h5>audio</h5>
+        <h5 className="f-24 mb-16 mt-16">audio</h5>
     </div>
-    <div>
+    <div className="flex flex-center flex-column justify-between">
         <Idea />
-        <h5>lights</h5>
+        <h5 className="f-24 mb-16 mt-16">lights</h5>
     </div>
-    <div>
+    <div className="flex flex-center flex-column justify-between">
         <InteriorSeat />
-        <h5>seat control</h5>
+        <h5 className="f-24 mb-16 mt-16">seat control</h5>
     </div>
-    <div>
+    <div className="flex flex-center flex-column justify-between">
         <ClimateAuto />
-        <h5>climate</h5>
+        <h5 className="f-24 mb-16 mt-16">climate</h5>
     </div>
-</div>
+</Grid>
 
 ## Areas of focus
 
 Although bringing value and control to the passenger was the main idea, we acknowledged **that driver is the only person who tends to control everything in the car while driving.** We want to tool though driver’s lenses in order to simplify the ride sharing process, not interfere.
 
-<div>
-    <div>
+<Grid rows={4} className="w-500">
+    <div className="flex flex-center">
         <div><ValetParking /></div>
-        <div>
-            <h2>Security</h2>
+        <div className="p-16">
+            <h2 className="f-24 mb-16 mt-16">Security</h2>
             <p>Information confidentiality and travellers’ safety is a priority</p>
         </div>
     </div>
-    <div>
+    <div className="flex flex-center">
         <div><CarHandover /></div>
-        <div>
-            <h2>Control</h2>
+        <div className="p-16">
+            <h2 className="f-24 mb-16 mt-16">Control</h2>
             <p>Passengers and drivers need a safer way to control and make use of their vehicle</p>
         </div>
     </div>
-    <div>
+    <div className="flex flex-center">
         <div><ConnectKey /></div>
-        <div>
-            <h2>Communication</h2>
+        <div className="p-16">
+            <h2 className="f-24 mb-16 mt-16">Communication</h2>
             <p>Working towards safer driving experiences involving driver/passenger communication through alternative means is essential.</p>
         </div>
     </div>
-</div>
+</Grid>
 
 ## Designing for Web
 
@@ -151,14 +169,14 @@ A single car may have up to 6 passengers. All the 6 passengers might be changing
 
 In order to recreate original experience being driven/riding Audi car the **Audi UI design system has been decided to be used.** However, low fidelity wire framing has been done to validate visual hirerarchy.
 
-<div>
+<Grid cols={3} rows={2}>
     <GatsbyImage alt="seat selection" image={props['wireframe-home']}/>
     <GatsbyImage alt="seat selection" image={props['wireframe-seat-selection']}/>
     <GatsbyImage alt="seat selection" image={props['wireframe-audio']}/>
     <GatsbyImage alt="seat selection" image={props['wireframe-lights']}/>
     <p>Missing volume here</p>
     <GatsbyImage alt="seat selection" image={props['wireframe-seating']}/>
-</div>
+</Grid>
 
 ## User flow
 
@@ -203,7 +221,7 @@ In order to recreate original experience being driven/riding Audi car the **Audi
 ## Proud to win 2 place!
 
 <div>
-    <GatsbyImage alt="Pairing" image={props.['team-photo']} />
+    <GatsbyImage alt="Pairing" image={props['team-photo']} />
     <span>Team photo with the President of Audi Canada Giorgio Delucchi</span>
 </div>
 

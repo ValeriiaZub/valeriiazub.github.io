@@ -35,6 +35,12 @@
   text-decoration: inherit;
 }
 
+body, html {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fafafa;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: myeongjo, sans-serif;
   font-style: bold;
@@ -42,8 +48,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  font-size: 18px
+  font-size: 1.125rem;
+  line-height: 1.875rem;
 }
+
 
 .inline {
   display: inline-block;
@@ -58,9 +66,25 @@ p {
   align-items: center;
 }
 
-.w-50 {
-  width: 50%;
+.flex-column {
+  flex-direction: column;
 }
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.w-40 { width: 40%;}
+.w-50 { width: 50%; }
+.w-60 { width: 60%; }
+.w-100 { width: 100%; }
+.w-500 { width: 500px; }
+.w-600 { width: 600px; }
+
 
 .f-24 {
   font-size: 24px;
@@ -74,20 +98,25 @@ p {
   font-weight: 400;
 }
 
-.p-16 {
-  padding: 1rem;
+.p-16 { padding: 1rem; }
+.pr-16 { padding-right: 1rem;}
+
+.mr-16 { margin-right: 1rem; }
+.ml-16 { margin-left: 1rem; }
+.mb-16 { margin-bottom: 1rem; }
+.mt-16 { margin-top: 1rem; }
+.mt-50 { margin-top: 50px;}
+.mb-50 { margin-bottom: 75px; }
+.ml-60 { margin-left: 60%;}
+
+.about {
+  width: 666px;
+  padding-left: 1rem;
 }
 
-.mr-16 {
-  margin-right: 1rem;
-}
-
-.mb-16 {
-  margin-bottom: 1rem;
-}
-
-.mb-50 {
-  margin-bottom: 75px;
+.footer {
+  margin-top: 11rem;
+  margin-bottom: 11rem;
 }
 
 .box {
@@ -125,13 +154,7 @@ p {
   white-space: nowrap;
   font-weight: 700;
   display: inherit;
-}
-
-
-
-body, html {
-  padding: 0px;
-  margin: 0px;
+  background-color: #fafafa;
 }
 
 .container {
@@ -139,10 +162,37 @@ body, html {
   margin: auto;
 }
 
-.social-links {
 
+.markdown > h2 {
+  font-size: 50px;
+  margin-top: 90px;
+  width: 600px;
 }
 
-.footer {
-  width: 50%;
+.markdown > h3 {
+  font-size: 24px;
+  margin-top: 36px;
+  margin-bottom: .75rem;
+  width: 600px;
+}
+
+.markdown > p {
+  width: 600px;
+}
+
+.markdown > blockquote {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #F5F5F7;
+  margin: 0px;
+  padding: 4rem 0rem;
+}
+
+.markdown > blockquote > p {
+  width: 600px;
+  font-size: 24px;
+  font-family: myeongjo, sans-serif;
+  font-weight: 700;
 }

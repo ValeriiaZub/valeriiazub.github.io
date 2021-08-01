@@ -1,9 +1,10 @@
-metadata:
-  - title: Team
-    description: Alex Borthwick, Josh Vandenbor
-  - title: Role
-    description: Visual Designer
-  - title: Tools
-    description: Generative Brainstorming, Stakeholder Interviews Paper prototyping, In
-  - title: Duration
-    description: 4 weeks
+work:
+  link: audi
+  title: Passenger onboarding with myAudi app
+  description: Inspired by the theme "Mobility as a Service." Explored and research shared mobility. Presented at Audi RED x BIMM Hackathon.
+  imageSrc: ../images/audi/home-index.png
+  readMore: aqi
+  tags:
+    - User Research
+    - Concept Prototyping
+    - UX/UI

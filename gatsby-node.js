@@ -18,34 +18,35 @@
 // }
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
-    const { createPage } = actions;
-    const result = await graphql(`
+  const { createPage } = actions;
+  const result = await graphql(`
       {
         allMdx {
           nodes {
             id
             frontmatter {
-                path
+              path
             }
           }
         }
       }
     `);
 
-    if (result.errors) {
-        reporter.panic('failed to create posts ', result.errors)
-    }
+  if (result.errors) {
+    reporter.panic('failed to create posts ', result.errors)
+  }
 
-    const pages = await result.data.allMdx.nodes
+  const pages = await result.data.allMdx.nodes
 
-    pages.forEach(page => {
-        console.log(JSON.stringify(page));
-        createPage({
-            path: `/${page.frontmatter.path}`,
-            component: require.resolve(`./src/templates/post.js`),
-            context: {
-                id: page.id
-            }
-        })
+  pages.forEach(page => {
+    console.log(JSON.stringify(page));
+    createPage({
+      path: `/${page.frontmatter.path}`,
+      component: require.resolve(`./src/templates/post.js`),
+      context: {
+        id: page.id,
+        company: page.frontmatter.path
+      }
     })
+  })
 }

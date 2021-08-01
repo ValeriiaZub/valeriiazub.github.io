@@ -6,15 +6,12 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Tag from "../components/tag"
 import Hero from "../components/hero"
-import { Link } from "@reach/router"
-// import Hero from "../components/hero"
-// import AboutWidget from "../components/aboutMe"
-// import BoxImage from "../components/boxImage"
+import BoxImage from "../components/boxImage"
+import ArrowDown from "../assets/arrow_down.svg";
 
 const IndexPage = ({ data }) => {
-  const { about, home, work, footer } = data.dataYaml;
+  const { about, home, work } = data.dataYaml;
   const image = getImage(about.profile);
-  const workImages = work.map(w => getImage(w.imageSrc));
   return <Layout>
     <Seo title="Home" />
     <Hero
@@ -22,18 +19,16 @@ const IndexPage = ({ data }) => {
       title={home.title}
       topText={home.topText}
     />
-    <h2>Explore my work</h2>
+    <h2 className="f-regular mb-50">Explore my work <ArrowDown /></h2>
     {work.map((w, i) =>
-      <Link to={w.link} key={w.link}>
-        <div>
-          <GatsbyImage image={workImages[i]} alt={w.title} />
-          <div>
-            <h3>{w.title}</h3>
-            <p>{w.description}</p>
-            {w.tags.map(t => <Tag text={t} />)}
-          </div>
-        </div>
-      </Link>
+      <BoxImage
+        key={w.title}
+        image={w.imageSrc}
+        title={w.title}
+        description={w.description}
+        tags={w.tags}
+        link={w.link}
+      />
     )}
     <div>
       <h2>{about.title}</h2>
@@ -42,20 +37,12 @@ const IndexPage = ({ data }) => {
         <div>
           <h5>{about.location}</h5>
           <div>
-            {about.tags.map(tag => <Tag text={tag} />)}
+            {about.tags.map((tag, i) => <Tag key={`${tag}-${i}`} text={tag} />)}
           </div>
-          {about.descriptions.map(description => <p>{description}</p>)}
+          {about.descriptions.map(description => <p key={description}>{description}</p>)}
         </div>
       </div>
     </div>
-    <footer>
-      {footer.map(({ title, subTitle }) =>
-        <div key={title} className="w-1/2">
-          <h4>{title}</h4>
-          <p>{subTitle}</p>
-        </div>
-      )}
-    </footer>
   </Layout>
 }
 
@@ -68,7 +55,7 @@ export const queryResults = graphql`
         profileAlt
         profile {
           childImageSharp {
-            gatsbyImageData(width: 250, placeholder: BLURRED, formats: [AUTO, WEBP, AVIF])
+            gatsbyImageData(width: 400, height: 400)
           }
         }
         descriptions
@@ -90,10 +77,6 @@ export const queryResults = graphql`
         link
         tags
         title
-      }
-      footer {
-        title
-        subTitle
       }
     }
   }

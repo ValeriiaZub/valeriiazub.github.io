@@ -31,6 +31,8 @@
   box-sizing: border-box;
   font-family: gothic, sans-serif;
   font-style: normal;
+  color: #11154A;
+  text-decoration: inherit;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -43,6 +45,9 @@ p {
   font-size: 18px
 }
 
+.inline {
+  display: inline-block;
+}
 
 .flex {
   display: flex;
@@ -65,8 +70,61 @@ p {
   font-size: 56px;;
 }
 
+.f-regular {
+  font-weight: 400;
+}
+
 .p-16 {
   padding: 1rem;
+}
+
+.mr-16 {
+  margin-right: 1rem;
+}
+
+.mb-16 {
+  margin-bottom: 1rem;
+}
+
+.mb-50 {
+  margin-bottom: 75px;
+}
+
+.box {
+  background-color: #F5F5F7;
+  border-radius: 1rem;
+  margin-bottom: 4rem;
+  padding: 0rem 2rem 0rem 2rem;
+  height: 400px;
+  position: relative;
+  z-index: 1;
+}
+
+.box--image {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  z-index: -1;
+}
+
+.box--image > .gatsby-image-wrapper.gatsby-image-wrapper-constrained {
+  width: inherit;
+  height: inherit;
+}
+
+.box--content {
+  width: 500px;
+  margin-left: 416px;
+  margin-top: 1.5rem;
+}
+
+.tag {
+  border: 3px solid #C0D4F4;
+  border-radius: 2rem;
+  padding: .75rem 1rem;
+  white-space: nowrap;
+  font-weight: 700;
+  display: inherit;
 }
 
 

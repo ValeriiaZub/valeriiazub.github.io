@@ -4,6 +4,7 @@ work:
   description: Creating SSO an "umbrella" for multiple product families.
   imageSrc: ../images/aqi/home.png
   readMore: audi
+  index: 1
   tags:
     - Stakeholder Interview
     - MVP and Target Mapping

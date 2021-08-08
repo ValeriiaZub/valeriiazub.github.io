@@ -4,6 +4,7 @@ work:
   description: Inspired by the theme "Mobility as a Service." Explored and research shared mobility. Presented at Audi RED x BIMM Hackathon.
   imageSrc: ../images/audi/home-index.png
   readMore: aqi
+  index: 2
   tags:
     - User Research
     - Concept Prototyping

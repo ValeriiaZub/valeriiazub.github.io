@@ -42,7 +42,7 @@ export const queryResults = graphql`
         topText
       }
     }
-    allWorkYaml {
+    allWorkYaml(sort: {fields: work___index}) {
       nodes {
         work {
           description

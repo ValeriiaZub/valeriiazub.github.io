@@ -62,9 +62,9 @@ module.exports = {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: {
-          quality: 90,
+          quality: 70,
           // formats: ['auto', 'webp', 'avif'],
-          // placeholder: 'blurred'
+          placeholder: 'blurred'
         }
       }
     },

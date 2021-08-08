@@ -1,23 +1,27 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
+const isBrowser = () => typeof window !== "undefined";
+
 const Grid = ({ children, className, cols, rows, mobileCols, mobileRows }) => {
-    const [width, setWidth] = useState(window.innerWidth);
+    const [width, setWidth] = useState(isBrowser() ? window.innerWidth : null);
 
     useEffect(() => {
-        const handleResize = () => setWidth(window.innerWidth);
-        window.addEventListener("resize", handleResize);
-        return () => {
-            window.removeEventListener("resize", handleResize);
-        };
+        if (isBrowser()) {
+            const handleResize = () => setWidth(window.innerWidth);
+            window.addEventListener("resize", handleResize);
+            return () => {
+                window.removeEventListener("resize", handleResize);
+            };
+        }
     }, []);
 
     let colNumbers = cols;
     let rowNumbers = rows;
-    if (mobileCols && width <= 900) {
+    if (width !== null && mobileCols && width <= 900) {
         colNumbers = mobileCols;
     }
-    if (mobileRows && width <= 900) {
+    if (width !== null && mobileRows && width <= 900) {
         rowNumbers = mobileRows;
     }
     let gridCols = '';

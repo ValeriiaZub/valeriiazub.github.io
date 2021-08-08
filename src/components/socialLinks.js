@@ -7,8 +7,8 @@ import { Link } from 'gatsby';
 const SocialLinks = ({ className, title, email, linkedin }) => (
     <div className={`${className ?? ""} flex flex-center`}>
         <Link to="/">{title ? <h4 className="p-16 bold" style={{ paddingLeft: 0 }}>{title}</h4> : null}</Link>
-        <span className="pr-16"><a href={`mailto:${email}`}><LinkedinSvg /></a></span>
-        <span className="pr-16"><a target="_black" href={linkedin}><MailSvg /></a></span>
+        <span className="pr-16"><a target="_black" href={linkedin}><LinkedinSvg /></a></span>
+        <span className="pr-16"><a href={`mailto:${email}`} ><MailSvg /></a></span>
     </div>
 );
 

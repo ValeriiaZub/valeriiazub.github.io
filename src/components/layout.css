@@ -2,28 +2,36 @@
   font-family: myeongjo;
   font-style: normal;
   font-weight: 400;
-  src:url('../fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf') format('truetype');
+  src:url('../fonts/Nanum_Myeongjo/NanumMyeongjo.woff2') format('woff2'),
+      url('../fonts/Nanum_Myeongjo/NanumMyeongjo.woff') format('woff'),
+      url('../fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: myeongjo;
   font-style: bold;
   font-weight: 700;
-  src:url('../fonts/Nanum_Myeongjo/NanumMyeongjo-Bold.ttf') format('truetype');
+  src:url('../fonts/Nanum_Myeongjo/NanumMyeongjoBold.woff2') format('woff2'),
+      url('../fonts/Nanum_Myeongjo/NanumMyeongjoBold.woff') format('woff'),
+      url('../fonts/Nanum_Myeongjo/NanumMyeongjo-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: gothic;
   font-style: bold;
   font-weight: 700;
-  src:url('../fonts/Nanum_Gothic/NanumGothic-Bold.ttf') format('truetype');
+  src:url('../fonts/Nanum_Gothic/NanumGothic.woff2') format('woff2'),
+      url('../fonts/Nanum_Gothic/NanumGothic.woff') format('woff'),
+      url('../fonts/Nanum_Gothic/NanumGothic-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: gothic;
   font-style: normal;
   font-weight: 400;
-  src:url('../fonts/Nanum_Gothic/NanumGothic-Regular.ttf') format('truetype');
+  src:url('../fonts/Nanum_Gothic/NanumGothicBold.woff2') format('woff2'),
+      url('../fonts/Nanum_Gothic/NanumGothicBold.woff') format('woff'),
+      url('../fonts/Nanum_Gothic/NanumGothic-Regular.ttf') format('truetype');
 }
 
 /* colors */

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1004" height="211.309" viewBox="0 0 1004 211.309">
+  <g id="user-flow-taraget" transform="translate(-6661 -4648.999)">
+    <g id="White_Button" data-name="White Button" transform="translate(6665 4697)">
+      <g id="Rectangle_270" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
+        <rect width="134" height="71" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="133" height="70" rx="3.5" fill="none"/>
+      </g>
+      <text id="Notification_Received_" data-name="Notification 
+Received " transform="translate(63 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="-51.021" y="0">Notification </tspan><tspan x="-39.177" y="30">Received </tspan></text>
+    </g>
+    <g id="White_Button-2" data-name="White Button" transform="translate(6819 4664.808)">
+      <g id="Rectangle_270-2" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
+        <rect width="296" height="41" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="295" height="40" rx="3.5" fill="none"/>
+      </g>
+      <text id="Gets_forwarded_into_the_project" data-name="Gets forwarded into the project" transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Gets forwarded into the project</tspan></text>
+    </g>
+    <g id="White_Button-3" data-name="White Button" transform="translate(7159 4651)">
+      <g id="Rectangle_270-3" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
+        <rect width="255" height="71" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="254" height="70" rx="3.5" fill="none"/>
+      </g>
+      <text id="Makes_a_revision_to_inputs_and_shares_the_revision_" data-name="Makes a revision to inputs and shares the revision " transform="translate(12 6)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="17">Makes a revision to inputs </tspan><tspan x="0" y="47">and shares the revision </tspan></text>
+    </g>
+    <g id="White_Button-4" data-name="White Button" transform="translate(6819 4702.288)">
+      <g id="Rectangle_270-4" data-name="Rectangle 270" transform="translate(-4 27.02)" fill="#fff" stroke="#ccc" stroke-width="1">
+        <rect width="324" height="131" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="323" height="130" rx="3.5" fill="none"/>
+      </g>
+      <text id="With_accessible_PROJECT_driven_dashboard_users_can_get_an_insight_on_the_most_relevant_projects_updates" data-name="With accessible PROJECT driven dashboard users can get an insight on the most relevant projects/updates" transform="translate(12 35.02)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="17">With accessible PROJECT driven </tspan><tspan x="0" y="47">dashboard users can get an insight </tspan><tspan x="0" y="77">on the most relevant projects/</tspan><tspan x="0" y="107">updates</tspan></text>
+    </g>
+    <g id="White_Button-5" data-name="White Button" transform="translate(7159 4748.479)">
+      <g id="Rectangle_270-5" data-name="Rectangle 270" transform="translate(-4 27.02)" fill="#fff" stroke="#ccc" stroke-width="1">
+        <rect width="246" height="41" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="245" height="40" rx="3.5" fill="none"/>
+      </g>
+      <text id="Opens_shared_KPI_module" data-name="Opens shared KPI module" transform="translate(12 52.02)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Opens shared KPI module</tspan></text>
+    </g>
+    <g id="White_Button-6" data-name="White Button" transform="translate(7436 4664.979)">
+      <g id="Rectangle_270-6" data-name="Rectangle 270" transform="translate(-4 27.02)" fill="#fff" stroke="#ccc" stroke-width="1">
+        <rect width="233" height="101" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="232" height="100" rx="3.5" fill="none"/>
+      </g>
+      <text id="User_2_reviews_revision_in_Claros_and_accepts_changes" data-name="User 2 reviews revision in Claros and accepts changes" transform="translate(12 35.02)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="17">User 2 reviews revision </tspan><tspan x="0" y="47">in Claros and accepts </tspan><tspan x="0" y="77">changes</tspan></text>
+    </g>
+    <path id="Path_1844" data-name="Path 1844" d="M6727,4713c15.307-2.089,6.178-39.735,20-40.689" transform="translate(68 12.188)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_1849" data-name="Path 1849" d="M0,49.691C23.725,47.14,9.575,1.165,31,0" transform="translate(7432 4796) rotate(180)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_1845" data-name="Path 1845" d="M6727,4672.311c15.307,3.537,6.178,67.269,20,68.883" transform="translate(68 54.806)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_1850" data-name="Path 1850" d="M0,0C16.837,3.537,6.8,67.269,22,68.883" transform="translate(7432 4744.381) rotate(180)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_1846" data-name="Path 1846" d="M7155,4796h16" transform="translate(-16)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_1848" data-name="Path 1848" d="M7155,4796h55.5" transform="translate(12078.5 -2435.001) rotate(90)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_1847" data-name="Path 1847" d="M7155,4796h44" transform="translate(-44 -111.5)" fill="none" stroke="#707070" stroke-width="1"/>
+  </g>
+</svg>

@@ -23,9 +23,10 @@ images:
     - ../images/audi/wireframe-lights.png
     - ../images/audi/wireframe-seat-selection.png
     - ../images/audi/wireframe-seating.png
+    - ../images/audi/wireframe-climate.png
 ---
 
-<GatsbyImage alt="image" image={props.audiHero} />
+<GatsbyImage alt="High-fidelity mock-ups representing main screens of myAudi app" image={props.audiHero} />
 
 <Grid cols={4} mobileCols={2} mobileRows={2} className="mt-100"> 
     <div className="p-16">
@@ -62,9 +63,8 @@ Mobility as a service is rather wide topic that was covers many areas of user ex
 
 We looked at the existing platform Audi has, myAudi. Now the app is just for the car owners and **does not allow for passengers to access all the premium features** inside the car from their phones.
 
-<Overflow caption="Native app(left) VS designed solution(right)">
-    <GatsbyImage alt="Native app(left) VS designed solution(right)" image={props.benchmarkVsSolution} />
-</Overflow> 
+<GatsbyImage alt="Mock-up of the design soltion compared to the benchmark existing myAudi app" image={props.benchmarkVsSolution}/>
+<Overflow caption="Native app(left) VS designed solution(right)"></Overflow>
 
 ## User perspective
 
@@ -163,18 +163,18 @@ A single car may have up to 6 passengers. All the 6 passengers might be changing
 In order to recreate original experience being driven/riding Audi car the **Audi UI design system has been decided to be used.** However, low fidelity wire framing has been done to validate visual hirerarchy.
 
 <Grid cols={3} rows={2} mobileCols={2} mobileRows={3}>
-    <GatsbyImage alt="seat selection" image={props['wireframe-home']}/>
-    <GatsbyImage alt="seat selection" image={props['wireframe-seat-selection']}/>
-    <GatsbyImage alt="seat selection" image={props['wireframe-audio']}/>
-    <GatsbyImage alt="seat selection" image={props['wireframe-lights']}/>
-    <p>Missing volume here</p>
-    <GatsbyImage alt="seat selection" image={props['wireframe-seating']}/>
+    <GatsbyImage alt="wireframe for thr home page for audi connect that leads to lights, seat controlls, climate, and audio" image={props['wireframe-home']}/>
+    <GatsbyImage alt="wireframe for thr home page for audi connect seat selection that lets you to select your seat" image={props['wireframe-seat-selection']}/>
+    <GatsbyImage alt="wireframe for thr home page for audi connect  that allows you to change volume of the audio and songs" image={props['wireframe-audio']}/>
+    <GatsbyImage alt="wireframe for thr home page for audi connect where you can change interior lightning" image={props['wireframe-lights']}/>
+    <GatsbyImage alt="wireframe for thr home page for audi connect  that lets you control climate options such as air contitioning and airflow" image={props['wireframe-climate']}/>
+    <GatsbyImage alt="wireframe for thr home page for audi connect that lets you contol posion and massage option for your seating if applicable" image={props['wireframe-seating']}/>
 </Grid>
 
 ## User flow
 
 <Grid cols={2}>
-    <GatsbyImage alt="Pairing" image={props.pairing} />
+    <GatsbyImage alt="Mock-up showin UI when pairing" image={props.pairing} />
     <div className="flex flex-center justify-center flex-column">
         <h4 className="w-100 f-24 mb-16 mt-16">1. Pairing</h4>
         <p className="mr-90">Using a QR-code displayed on car’s dashboard screen, sticker, or any other pairing method, a user would connect with a car through a driver’s phone. This requires the Internet connection.</p>
@@ -182,7 +182,7 @@ In order to recreate original experience being driven/riding Audi car the **Audi
 </Grid>
 
 <Grid cols={2}>
-    <GatsbyImage alt="Pairing" image={props['seat-selection']} />
+    <GatsbyImage alt="Mock-up showin UI when selecting seat" image={props['seat-selection']} />
     <div className="flex flex-center justify-center flex-column">
         <h4 className="w-100 f-24 mb-16 mt-16">2. Seat selection</h4>
         <p className="mr-90">By selecting a seat a passenger is able to use custom features that is applied to their seat</p>
@@ -190,7 +190,7 @@ In order to recreate original experience being driven/riding Audi car the **Audi
 </Grid>
 
 <Grid cols={2}>
-    <GatsbyImage alt="Pairing" image={props.home} />
+    <GatsbyImage alt="Mock-up showin UI when logging into the account" image={props.home} />
     <div className="flex flex-center justify-center flex-column">
         <h4 className="w-100 f-24 mb-16 mt-16">3. Logging in</h4>
         <p className="mr-90">The device is connected to the system and ready for making changes.</p>
@@ -198,23 +198,23 @@ In order to recreate original experience being driven/riding Audi car the **Audi
 </Grid>
 
 <Grid cols={2}>
-    <GatsbyImage alt="Pairing" image={props.audio} />
+    <GatsbyImage alt="Mock-up showin UI of all the avaliable features" image={props.audio} />
     <div className="flex flex-center justify-center flex-column">
         <h4 className="w-100 f-24 mb-16 mt-16">4. Accessing features</h4>
-        <p className="mr-90">Depending on the tolerance the driver would set, a passenger would have access to the most used interior settings from their phone.</p>
+        <p className="mr-90">Depending on the tolerance the driver would se4t, a passenger would have access to the most used interior settings from their phone.</p>
     </div>
 </Grid>
 
 <Grid cols={3}>
-    <GatsbyImage alt="Pairing" image={props.lights} />
-    <GatsbyImage alt="Pairing" image={props.climate} />
-    <GatsbyImage alt="Pairing" image={props.seating} />
+    <GatsbyImage alt="UI of lightning page" image={props.lights} />
+    <GatsbyImage alt="UI of climate control page" image={props.climate} />
+    <GatsbyImage alt="UI of seating options such as massage and incline" image={props.seating} />
 </Grid>
 
 ## Proud to win 2 place!
 
 <Overflow caption="Team photo with the President of Audi Canada Giorgio Delucchi">
-    <GatsbyImage alt="Pairing" image={props['team-photo']} />
+    <GatsbyImage alt="a picture with my teammates with the President of Audi Canada Giorgio Delucchi being awarded for the second place " image={props['team-photo']} />
 </Overflow>
 
 ## Lessons learned

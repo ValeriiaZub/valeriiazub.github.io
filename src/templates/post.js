@@ -13,6 +13,8 @@ import Overflow from '../components/overflow'
 
 // All of the svgs that we'll hopefully ever need
 import ArrowLeft from '../assets/arrow_left.svg';
+import UserFlowMvp from '../assets/user-flow-mvp.svg';
+import UserFlowTarget from '../assets/user-flow-target.svg';
 import ArrowRight from '../assets/arrow_right.svg';
 import ArrowDown from '../assets/arrow_down.svg';
 import AudioVolume from '../assets/audio-volume-large.svg';
@@ -35,6 +37,8 @@ import BoxImage from '../components/boxImage';
 
 const shortcodes = {
     Link,
+    UserFlowMvp,
+    UserFlowTarget,
     Grid,
     Overflow,
     GatsbyImage,

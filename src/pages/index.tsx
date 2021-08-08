@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => {
       title={home.title}
       topText={home.topText}
     />
-    <h2 className="f-regular mb-50">Explore my work <ArrowDown /></h2>
+    <p className="f-regular f-24 mb-50">Explore my work <ArrowDown /></p>
     {nodes.map(({ work }, i) =>
       <BoxImage
         key={work.title}

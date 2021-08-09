@@ -34,6 +34,7 @@ import ValetParking from '../assets/valet-parking.svg';
 import VolumeDown from '../assets/volume_down.svg';
 import VolumeUp from '../assets/volume_up.svg';
 import BoxImage from '../components/boxImage';
+import Seo from '../components/seo';
 
 const shortcodes = {
     Link,
@@ -73,6 +74,7 @@ const Post = ({ data }) => {
         });
     }, {});
     return <Layout>
+        <Seo title={title} />
         <Hero title={title} subText={subTitle} />
         <div className="markdown">
             <MDXProvider

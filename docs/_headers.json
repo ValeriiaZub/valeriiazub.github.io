@@ -1,1 +1,83 @@
-{"/*":["X-Frame-Options: DENY","X-XSS-Protection: 1; mode=block","X-Content-Type-Options: nosniff","Referrer-Policy: same-origin"],"/styles.4fd201ee38a835c2b29a.css":["Cache-Control: public, max-age=31536000, immutable"],"/commons-99adaaf7091f673f2529.js":["Cache-Control: public, max-age=31536000, immutable"],"/component---src-templates-post-js-25e266edd5afa3ea430f.js":["Cache-Control: public, max-age=31536000, immutable"],"/component---src-pages-404-tsx-446182659abc4c92ef88.js":["Cache-Control: public, max-age=31536000, immutable"],"/component---src-pages-index-tsx-8fb88fcbd3170a7622ee.js":["Cache-Control: public, max-age=31536000, immutable"],"/webpack-runtime-90b847e23fdb6042f609.js":["Cache-Control: public, max-age=31536000, immutable"],"/framework-d2ba270dbf00c25dc6a3.js":["Cache-Control: public, max-age=31536000, immutable"],"/app-629aa3e6b40a730d1e98.js":["Cache-Control: public, max-age=31536000, immutable"],"/static/*":["Cache-Control: public, max-age=31536000, immutable"],"/sw.js":["Cache-Control: public, max-age=0, must-revalidate"],"/aqi":["Link: </webpack-runtime-90b847e23fdb6042f609.js>; rel=preload; as=script; nopush","Link: </framework-d2ba270dbf00c25dc6a3.js>; rel=preload; as=script; nopush","Link: </app-629aa3e6b40a730d1e98.js>; rel=preload; as=script; nopush","Link: </commons-99adaaf7091f673f2529.js>; rel=preload; as=script; nopush","Link: </component---src-templates-post-js-25e266edd5afa3ea430f.js>; rel=preload; as=script; nopush","Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin; nopush","Link: </page-data/aqi/page-data.json>; rel=preload; as=fetch; crossorigin; nopush"],"/audi":["Link: </webpack-runtime-90b847e23fdb6042f609.js>; rel=preload; as=script; nopush","Link: </framework-d2ba270dbf00c25dc6a3.js>; rel=preload; as=script; nopush","Link: </app-629aa3e6b40a730d1e98.js>; rel=preload; as=script; nopush","Link: </commons-99adaaf7091f673f2529.js>; rel=preload; as=script; nopush","Link: </component---src-templates-post-js-25e266edd5afa3ea430f.js>; rel=preload; as=script; nopush","Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin; nopush","Link: </page-data/audi/page-data.json>; rel=preload; as=fetch; crossorigin; nopush"],"/404/":["Link: </webpack-runtime-90b847e23fdb6042f609.js>; rel=preload; as=script; nopush","Link: </framework-d2ba270dbf00c25dc6a3.js>; rel=preload; as=script; nopush","Link: </app-629aa3e6b40a730d1e98.js>; rel=preload; as=script; nopush","Link: </commons-99adaaf7091f673f2529.js>; rel=preload; as=script; nopush","Link: </component---src-pages-404-tsx-446182659abc4c92ef88.js>; rel=preload; as=script; nopush","Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin; nopush","Link: </page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin; nopush"],"/404.html":["Link: </webpack-runtime-90b847e23fdb6042f609.js>; rel=preload; as=script; nopush","Link: </framework-d2ba270dbf00c25dc6a3.js>; rel=preload; as=script; nopush","Link: </app-629aa3e6b40a730d1e98.js>; rel=preload; as=script; nopush","Link: </commons-99adaaf7091f673f2529.js>; rel=preload; as=script; nopush","Link: </component---src-pages-404-tsx-446182659abc4c92ef88.js>; rel=preload; as=script; nopush","Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin; nopush","Link: </page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin; nopush"],"/":["Link: </webpack-runtime-90b847e23fdb6042f609.js>; rel=preload; as=script; nopush","Link: </framework-d2ba270dbf00c25dc6a3.js>; rel=preload; as=script; nopush","Link: </app-629aa3e6b40a730d1e98.js>; rel=preload; as=script; nopush","Link: </commons-99adaaf7091f673f2529.js>; rel=preload; as=script; nopush","Link: </component---src-pages-index-tsx-8fb88fcbd3170a7622ee.js>; rel=preload; as=script; nopush","Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin; nopush","Link: </page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin; nopush"]}
+{
+    "/*": [
+        "X-Frame-Options: DENY",
+        "X-XSS-Protection: 1; mode=block",
+        "X-Content-Type-Options: nosniff",
+        "Referrer-Policy: same-origin"
+    ],
+    "/styles.4fd201ee38a835c2b29a.css": [
+        "Cache-Control: public, max-age=31536000, immutable"
+    ],
+    "/commons-99adaaf7091f673f2529.js": [
+        "Cache-Control: public, max-age=31536000, immutable"
+    ],
+    "/component---src-templates-post-js-25e266edd5afa3ea430f.js": [
+        "Cache-Control: public, max-age=31536000, immutable"
+    ],
+    "/component---src-pages-404-tsx-446182659abc4c92ef88.js": [
+        "Cache-Control: public, max-age=31536000, immutable"
+    ],
+    "/component---src-pages-index-tsx-8fb88fcbd3170a7622ee.js": [
+        "Cache-Control: public, max-age=31536000, immutable"
+    ],
+    "/webpack-runtime-90b847e23fdb6042f609.js": [
+        "Cache-Control: public, max-age=31536000, immutable"
+    ],
+    "/framework-d2ba270dbf00c25dc6a3.js": [
+        "Cache-Control: public, max-age=31536000, immutable"
+    ],
+    "/app-629aa3e6b40a730d1e98.js": [
+        "Cache-Control: public, max-age=31536000, immutable"
+    ],
+    "/static/*": [
+        "Cache-Control: public, max-age=31536000, immutable"
+    ],
+    "/sw.js": [
+        "Cache-Control: public, max-age=0, must-revalidate"
+    ],
+    "/aqi": [
+        "Link: </webpack-runtime-90b847e23fdb6042f609.js>; rel=preload; as=script; nopush",
+        "Link: </framework-d2ba270dbf00c25dc6a3.js>; rel=preload; as=script; nopush",
+        "Link: </app-629aa3e6b40a730d1e98.js>; rel=preload; as=script; nopush",
+        "Link: </commons-99adaaf7091f673f2529.js>; rel=preload; as=script; nopush",
+        "Link: </component---src-templates-post-js-25e266edd5afa3ea430f.js>; rel=preload; as=script; nopush",
+        "Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin; nopush",
+        "Link: </page-data/aqi/page-data.json>; rel=preload; as=fetch; crossorigin; nopush"
+    ],
+    "/audi": [
+        "Link: </webpack-runtime-90b847e23fdb6042f609.js>; rel=preload; as=script; nopush",
+        "Link: </framework-d2ba270dbf00c25dc6a3.js>; rel=preload; as=script; nopush",
+        "Link: </app-629aa3e6b40a730d1e98.js>; rel=preload; as=script; nopush",
+        "Link: </commons-99adaaf7091f673f2529.js>; rel=preload; as=script; nopush",
+        "Link: </component---src-templates-post-js-25e266edd5afa3ea430f.js>; rel=preload; as=script; nopush",
+        "Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin; nopush",
+        "Link: </page-data/audi/page-data.json>; rel=preload; as=fetch; crossorigin; nopush"
+    ],
+    "/404/": [
+        "Link: </webpack-runtime-90b847e23fdb6042f609.js>; rel=preload; as=script; nopush",
+        "Link: </framework-d2ba270dbf00c25dc6a3.js>; rel=preload; as=script; nopush",
+        "Link: </app-629aa3e6b40a730d1e98.js>; rel=preload; as=script; nopush",
+        "Link: </commons-99adaaf7091f673f2529.js>; rel=preload; as=script; nopush",
+        "Link: </component---src-pages-404-tsx-446182659abc4c92ef88.js>; rel=preload; as=script; nopush",
+        "Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin; nopush",
+        "Link: </page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin; nopush"
+    ],
+    "/404.html": [
+        "Link: </webpack-runtime-90b847e23fdb6042f609.js>; rel=preload; as=script; nopush",
+        "Link: </framework-d2ba270dbf00c25dc6a3.js>; rel=preload; as=script; nopush",
+        "Link: </app-629aa3e6b40a730d1e98.js>; rel=preload; as=script; nopush",
+        "Link: </commons-99adaaf7091f673f2529.js>; rel=preload; as=script; nopush",
+        "Link: </component---src-pages-404-tsx-446182659abc4c92ef88.js>; rel=preload; as=script; nopush",
+        "Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin; nopush",
+        "Link: </page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin; nopush"
+    ],
+    "/": [
+        "Link: </webpack-runtime-90b847e23fdb6042f609.js>; rel=preload; as=script; nopush",
+        "Link: </framework-d2ba270dbf00c25dc6a3.js>; rel=preload; as=script; nopush",
+        "Link: </app-629aa3e6b40a730d1e98.js>; rel=preload; as=script; nopush",
+        "Link: </commons-99adaaf7091f673f2529.js>; rel=preload; as=script; nopush",
+        "Link: </component---src-pages-index-tsx-8fb88fcbd3170a7622ee.js>; rel=preload; as=script; nopush",
+        "Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin; nopush",
+        "Link: </page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin; nopush"
+    ]
+}

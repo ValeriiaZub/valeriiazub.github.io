@@ -85,7 +85,7 @@ const Post = ({ data }) => {
                 </MDXRenderer>
             </MDXProvider>
         </div>
-        <section>
+        {/* <section>
             <h2 className="f-56 mt-100">Discover more of my work</h2>
             <BoxImage
                 image={data.workYaml.work.imageSrc}
@@ -94,7 +94,7 @@ const Post = ({ data }) => {
                 tags={data.workYaml.work.tags}
                 link={`/${data.workYaml.work.link}`}
             />
-        </section>
+        </section> */}
     </Layout>
 }
 

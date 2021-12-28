@@ -29,3 +29,13 @@ src
 ## FAQ
 
 Everything is clear :) Great
+
+## deploy
+
+1. `npm run build`
+2. `cd ../<website-folder-name>`
+3. remove all files in website-folder-name exept for CNAME
+3. `mv ../valeriiazub.github.io/public/* .`
+4. `git add .`
+5. `git commit -m "website update"`
+6. `git push`

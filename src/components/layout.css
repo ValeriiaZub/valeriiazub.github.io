@@ -79,14 +79,17 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
 .flex-column { flex-direction: column; }
 .justify-between { justify-content: space-between; }
 .justify-center { justify-content: center; justify-items: center; }
+.justify-left { justify-content: left; justify-items: left; }
 
 /* width, height margin padding utility classes */
 .w-40 { width: 40%;}
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
 .w-80 { width: 80%; }
+.w-90 { width: 90%; }
 .w-100 { width: 100%; }
 .w-150 { width: 150px; }
+.w-200 { width: 200px; }
 .w-400 { width: 400px; }
 .w-500 { width: 525px; }
 .w-600 { width: 600px; }
@@ -98,6 +101,7 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
 .h-400 { height: 400px; }
 /* padding */
 .p-16 { padding: 1rem; }
+.p-32 { padding: 2rem; }
 .pr-16 { padding-right: 1rem;}
 .pl-16 { padding-left: 1rem; }
 .pr-32 { padding-right: 2rem;}
@@ -116,6 +120,7 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
 .mr-90 { margin-right: 90px;}
 .mt-100 { margin-top: 100px;}
 .m-auto { margin: auto; }
+.mrl-auto { margin-right: auto; margin-left: auto; }
 
 /* Component Specific styles */
 .footer {
@@ -123,18 +128,29 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
   margin-bottom: 11rem;
 }
 .tag {
-  border: 3px solid #C0D4F4;
+  border: 3px solid #11154A;
   border-radius: 2rem;
-  padding: .75rem 1rem;
+  padding: .5rem 1.25rem 0.75rem;
   white-space: nowrap;
   font-weight: 700;
   display: inherit;
-  background-color: #fafafa;
+  background-color: transparent;
 }
 .overflow-content {
   width: 140%;
   margin-left: -20%;
   overflow: hidden;
+}
+.persona1{
+  background-color: #cde2cc59;
+  border-radius: 10px ;
+  padding: 3rem 4rem 3rem 4rem;
+}
+
+.persona2{
+  background-color: #11154a10;
+  border-radius: 10px ;
+  padding: 3rem 4rem 3rem 4rem;
 }
 
 /* markdown styles */

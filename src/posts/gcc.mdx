@@ -1,0 +1,216 @@
+---
+path: gcc
+title: Green Committee Connect
+subTitle: A web platform for people living in multi-residential buildings to join volunteer organizations to clean neighbourhoods and reduce waste produced by the community. 
+landingImage: ../images/gcc/gccHero.png
+images:
+    - ../images/gcc/flowChart.png
+    - ../images/gcc/gccHero.png
+    - ../images/gcc/wireframes.png
+    - ../images/gcc/newColours.png 
+    - ../images/gcc/findResources.png
+    - ../images/gcc/sortResources.png
+    - ../images/gcc/challenges.png 
+    - ../images/gcc/persona1.png 
+    - ../images/gcc/persona2.png 
+---
+
+<GatsbyImage alt="High-fidelity mock-ups representing main screens of myAudi app" image={props.gccHero} />
+
+<Grid cols={4} mobileCols={2} mobileRows={2} className="mt-100"> 
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Team</h4>
+        <p>Green Committee volunteer research group.</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Role</h4>
+        <p>Lead designer.</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Tools</h4>
+        <p>User research, stakeholder interviews, wireframing, responsive design. </p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Duration</h4>
+        <p>4 weeks.</p>
+    </div>
+</Grid>
+
+## Designer "hats"
+
+Although interviewed users were different personas, all the feedback could be classified into 4 main categories:
+
+<Grid rows={2} className="w-500 m-w-100">
+    <div className="flex flex-center">
+        <div className="h-100 mt-50"><Research /></div>
+        <div className="pl-48">
+            <h2 className="f-24 mb-16 mt-16">Researcher</h2>
+            <p>Assisted the team with both qualitative and quantitative research processing and feedback clustering. </p>
+        </div>
+    </div>
+    <div className="flex flex-center">
+        <div className="h-100 mt-50"><Wireframe /></div>
+        <div className="pl-48">
+            <h2 className="f-24 mb-16 mt-16">UX/UI designer</h2>
+            <p>Reimagined the brand by addressing accessibility standards. Created a simple new visual aesthetic and information hierarchy to be maintained by volunteers in the future.</p>
+        </div>
+    </div>
+</Grid>
+
+## What is a green committee?
+
+A green committee is a volunteer organization where people living in multi-residential buildings come together to **clean up the neighbourhoods and reduce waste produced by the community.**
+
+## Problem statement
+
+ > How might we help people living in multi-residential buildings during pandemic reduce individual household waste and join more volunteer groups? 
+
+## Collecting information from the user interviews
+
+Although interviewed users were different personas, all the feedback could be classified into 4 main categories:
+
+<Grid rows={3} className="w-500 m-w-100">
+    <div className="flex flex-center">
+        <div className="h-100 mt-50"><People /></div>
+        <div className="pl-48">
+            <h2 className="f-24 mb-16 mt-16">No single communication line</h2>
+            <p>Because many people are coming from different generations, they all are using various messengers and platforms for communication. User interviews have shown that if a person would not know how to reach out they wold be reluctant to look up how.</p>
+        </div>
+    </div>
+    <div className="flex flex-center">
+        <div className="h-100 mt-50"><Paper /></div>
+        <div className="pl-48">
+            <h2 className="f-24 mb-16 mt-16">Hard to find resources </h2>
+            <p>Some people pointed out that they would still want to try their household waste, however, their main point of resources were people. Once they stopped seeing people, they found it daunting to look for multiple resources on the web, since recycling and waste practices in Toronto are complex.</p>
+        </div>
+    </div>
+    <div className="flex flex-center">
+        <div className="h-100 mt-50"><Lightbulb /></div>
+        <div className="pl-48">
+            <h2 className="f-24 mb-16 mt-16">People forget to to manage their waste at home </h2>
+            <p>Once the lockdown happened, majority of people stopped carrying as much about their household waste as they were exposed less to the better practices and social pressure.</p>
+        </div>
+    </div>
+</Grid>
+
+## Landing on personas
+
+<div className="persona1 w-90 mt-100 mrl-auto">
+    <div className="flex flex-center ">
+     <GatsbyImage alt="A user interface sketch of the main page"  className="w-60" image={props.persona1}/>
+     <div  className="pl-48">
+           <h4 className="w-100 f-24 mb-16 mt-16">James, green committee lead</h4>
+            <p>“It has been <strong>difficult to have new people join. Because of Covid-19 I find It hard to talk to other members from different groups.</strong> People used to do great things together, now we stay home.”</p>
+     </div>
+    </div>
+    <Grid cols={2} mobileCols={1} mobileRows={2} className="mt-16"> 
+      <div className="w-90">
+          <h4 className="w-100 f-24 mb-16 mt-16">Pain points</h4>
+          <p>Psychical isolation, lack of communication. </p>
+      </div>
+        <div className="w-90">
+          <h4 className="f-24 mb-16 mt-16">Goal</h4>
+          <p>Get more people involved, resume activities.</p>
+      </div>
+    </Grid>
+</div>
+
+<div className="persona2 w-90 mt-100 mrl-auto ">
+    <div className="flex flex-center ">
+     <GatsbyImage alt="A user interface sketch of the main page"  className="w-60" image={props.persona2}/>
+     <div  className="pl-48">
+           <h4 className="w-100f-24 mb-16 mt-16">Sophia, new to green committees </h4>
+            <p>“It is <strong>difficult to find new information about how to become one (green committee)</strong>, how to join one, where to find people.”</p>
+     </div>
+    </div>
+    <Grid cols={2} mobileCols={1} mobileRows={2} className="mt-16"> 
+      <div className="w-90">
+          <h4 className="w-100 f-24 mb-16 mt-16">Pain points</h4>
+          <p>Lack of accessible resources, lack of self-activism.</p>
+      </div>
+        <div className="w-90">
+          <h4 className="f-24 mb-16 mt-16">Goal</h4>
+          <p>Get involved into the movements, meet new people</p>
+      </div>
+    </Grid>
+</div>
+
+## Project goals
+
+Although interviewed users were different personas, all the feedback could be classified into 4 main categories:
+
+<Grid cols={3} mobileCols={1} mobileRows={3}> 
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Clear information architecture</h4>
+        <p>Text mus be easy to read, articles must be strucctured in a common way.</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Easy navigation</h4>
+        <p>Resource sorting, common architecture of the website.</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Inclusive solution</h4>
+        <p>Responsive design, accessible colours. </p>
+    </div>
+</Grid>
+
+
+## Mapping out the experience
+
+The challenge was to **organize the a large amount of articles** and data into a simple website that people would have no problem navigating though.
+
+<div className="m-auto w-60 mb-16 mt-50 m-w-100"> <GccFlowchart/></div>
+<Overflow className="mt-16" caption="Information architecture flowchart"></Overflow>
+
+## From wireframes to website
+Though a few design iterations, I have developed a design that would allow people to sort the information on the web page to be able access needed articles. **The team decided to use WIX as a web page builder at the end, which limited the design freedom.**
+<GatsbyImage alt="A user interface sketch of the main page" image={props.wireframes}/>
+<Overflow caption="Wireframes, the first design stage."></Overflow>
+
+## Making colours accessible
+I have received a huge support from the team to have full creative freedom. However, the team had made a decision to use defined brand colours made by previous marketing volunteer. Making an effort to make the design accessible, **I proposed a slightly different yet accessible colour palette.**
+<GatsbyImage alt=" A set of screens demostrating the defference of colour combinations using better colour contrast and less saturated shades." image={props.newColours}/>
+<Overflow caption="Before and after adjusted colours for better visual accessibility."></Overflow>
+
+
+## Handing off the website to the team
+After a few rounds of refinement the **design was handed off with instructions** on how to update content, design for mobile and desktop, and reorganize the webpage.
+
+<Grid cols={2}>
+    <GatsbyImage alt="Mock-up showin UI when pairing" image={props.findResources} />
+    <div className="flex flex-center justify-center flex-column">
+        <h4 className="w-100 f-24 mb-16 mt-16">Helping different people find relevant info</h4>
+        <p className="mr-90">Small sections were designed to link people who may have different background to the most relevant information. </p>
+    </div>
+</Grid>
+
+<Grid cols={2}>
+    <GatsbyImage alt="Mock-up showin UI when selecting seat" image={props.sortResources} />
+    <div className="flex flex-center justify-center flex-column">
+        <h4 className="w-100 f-24 mb-16 mt-16">Resourceful library of links in one place </h4>
+        <p className="mr-90">People searching for environmental and waste information would be able to access a wide variety of articles without spending extra time on searching them.</p>
+    </div>
+</Grid>
+
+<Grid cols={2}>
+    <GatsbyImage alt="Mock-up showin UI when logging into the account" image={props.challenges} />
+    <div className="flex flex-center justify-center flex-column">
+        <h4 className="w-100 f-24 mb-16 mt-16">Inspiring challenges to power your community</h4>
+        <p className="mr-90">TOnce more and more people join the Facebook group, the challenges and success stories would be posted publicly for more people to join.</p>
+    </div>
+</Grid>
+
+## How does it look now?
+One of the main project requirements was to construct a design that a website builder would be able to support, as the team would be taking care of the new content after the handoff.
+
+The website was published in February 2021.
+
+Visit live website
+
+## Lessons learned
+### Syncing with the team in a short period of time
+Because the project was just 4 weeks long, I found it extremely important to spend minimal amount if time understanding the goal of the team, setting the expectations.
+
+### Importance of learning about the user
+Because I never know what a green committee is before I joined the project, I dedicated the time to learn about the people another motivations, which paid off as I learned about their pain points. 
+

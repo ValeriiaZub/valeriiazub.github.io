@@ -1,4 +1,6 @@
-<svg id="mail_black_24dp" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <path id="Path_62" data-name="Path 62" d="M0,0H24V24H0Z" fill="none"/>
-  <path id="Path_63" data-name="Path 63" d="M22,6a2.006,2.006,0,0,0-2-2H4A2.006,2.006,0,0,0,2,6V18a2.006,2.006,0,0,0,2,2H20a2.006,2.006,0,0,0,2-2ZM20,6l-8,4.99L4,6Zm0,12H4V8l8,5,8-5Z" fill="#11154a"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" viewBox="0 0 27 24">
+  <g id="Group_10811" data-name="Group 10811" transform="translate(-249 -42)">
+    <rect id="Rectangle_2226" data-name="Rectangle 2226" width="27" height="24" transform="translate(249 42)" fill="none"/>
+    <path id="Path_11030" data-name="Path 11030" d="M138.246,117.99H121.369a3.439,3.439,0,0,0-3.439,3.439v9.705a3.439,3.439,0,0,0,3.439,3.439h16.876a3.439,3.439,0,0,0,3.439-3.439v-9.705a3.439,3.439,0,0,0-3.439-3.439Zm0,2.293a1.147,1.147,0,0,1,.55.146l-8.989,5.973-8.989-5.973a1.147,1.147,0,0,1,.55-.146Zm0,12H121.369a1.147,1.147,0,0,1-1.147-1.147v-8.352l8.951,5.95a1.147,1.147,0,0,0,1.27,0l8.948-5.95v8.349a1.146,1.146,0,0,1-1.147,1.146Z" transform="translate(133.178 -71.311)" fill="#11154a"/>
+  </g>
 </svg>

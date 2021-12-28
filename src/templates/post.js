@@ -11,7 +11,7 @@ import Layout from '../components/layout';
 import Grid from '../components/grid'
 import Overflow from '../components/overflow'
 
-// All of the svgs that we'll hopefully ever need
+// All of the svgs that I'll hopefully ever need
 import ArrowLeft from '../assets/arrow_left.svg';
 import UserFlowMvp from '../assets/user-flow-mvp.svg';
 import UserFlowTarget from '../assets/user-flow-target.svg';
@@ -24,12 +24,18 @@ import ClimateAuto from '../assets/climate-auto-large.svg';
 import Code from '../assets/code-large.svg';
 import ConnectKey from '../assets/connect-key-large.svg';
 import CirclePhone from '../assets/circle-phone.svg';
+import GccFlowchart from '../assets/flowChart.svg';
 import Idea from '../assets/idea-large.svg';
 import IndicatorsDown from '../assets/indicators-down.svg';
 import IndicatorsUpDown from '../assets/indicators-up-down.svg';
 import InteriorSeat from '../assets/interior-seat.svg';
 import MobilePhone from '../assets/mobile-phone.svg';
+import Lightbulb from '../assets/lightbulb.svg';
 import Settings from '../assets/settings.svg';
+import People from '../assets/people.svg';
+import Paper from '../assets/paper.svg'; 
+import Research from '../assets/researchIcon.svg'; 
+import Wireframe from '../assets/wireframeIcon.svg'; 
 import ValetParking from '../assets/valet-parking.svg';
 import VolumeDown from '../assets/volume_down.svg';
 import VolumeUp from '../assets/volume_up.svg';
@@ -53,12 +59,18 @@ const shortcodes = {
     Car,
     ConnectKey,
     CirclePhone,
+    GccFlowchart,
     Idea,
     IndicatorsDown,
     IndicatorsUpDown,
     InteriorSeat,
+    Lightbulb,
     MobilePhone,
     Settings,
+    People,
+    Paper,
+    Research,
+    Wireframe,
     ValetParking,
     VolumeDown,
     VolumeUp,

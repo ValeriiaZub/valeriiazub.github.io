@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Valeriia Zub`,
-    description: `Hi, I'm valeriia zub`,
-    author: `@ValeriiaZub`,
+    title: `Valeria Zub`,
+    description: `Hi, I'm valeria zub`,
+    author: `@ValeriaZub`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
     social: {
       email: "val.zubb@gmail.com",

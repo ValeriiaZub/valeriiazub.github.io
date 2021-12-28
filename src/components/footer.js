@@ -9,11 +9,12 @@ const Footer = ({ footerTitles, email, linkedin }) => {
             {footerTitles.map(({ subTitle, title }, i) =>
                 <div className={`${i === 0 ? 'w-60' : 'w-40'} inline m-w-100`} key={title}>
                     <h4 className="f-24">{title}</h4>
-                    <p>{subTitle}</p>
+                    {(subTitle)
+                        ? <p>{subTitle}</p>
+                        : <SocialLinks className="m-m-0 m-pt-32" email={email} linkedin={linkedin} />}
                 </div>
             )}
         </div>
-        <SocialLinks className="ml-60 w-40 m-m-0 m-pt-32" email={email} linkedin={linkedin} />
     </footer>
 }
 

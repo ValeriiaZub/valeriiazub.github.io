@@ -28,7 +28,7 @@ const AboutMe = () => {
     return <div style={{ marginTop: 80 }}>
         <h2 className="f-56">{about.title}</h2>
         <div className="flex m-flex-column">
-            <div className="w-150 h-150 m-w-300 m-h-300 m-m-auto">
+            <div className="w-200 h-200 m-w-300 m-h-300 m-m-auto">
                 <GatsbyImage style={{ width: 'inherit', height: 'inherit' }} image={image} alt={about.profileAlt} />
             </div>
             <div className="w-666 pl-16 m-w-100">

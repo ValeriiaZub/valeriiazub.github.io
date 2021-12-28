@@ -5,7 +5,6 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Hero from "../components/hero"
 import BoxImage from "../components/boxImage"
-import ArrowDown from "../assets/arrow_down.svg"
 import AboutMe from "../components/aboutme"
 
 const IndexPage = ({ data }) => {
@@ -18,7 +17,7 @@ const IndexPage = ({ data }) => {
       title={home.title}
       topText={home.topText}
     />
-    <p className="f-regular f-24 mb-50">Explore my work <ArrowDown /></p>
+    <p className="f-regular mb-50">Scroll to see my work</p>
     {nodes.map(({ work }, i) =>
       <BoxImage
         key={work.title}

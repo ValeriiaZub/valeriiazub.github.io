@@ -3,6 +3,7 @@ path: gcc
 title: Green Committee Connect
 subTitle: A web platform for people living in multi-residential buildings to join volunteer organizations to clean neighbourhoods and reduce waste produced by the community. 
 landingImage: ../images/gcc/gccHero.png
+readMore: aqi
 images:
     - ../images/gcc/flowChart.png
     - ../images/gcc/gccHero.png
@@ -63,7 +64,9 @@ A green committee is a volunteer organization where people living in multi-resid
 
 ## Problem statement
 
- > How might we help people living in multi-residential buildings during pandemic reduce individual household waste and join more volunteer groups? 
+<BlockQuote background="#cde2cc59">
+    How might we help people living in multi-residential buildings during pandemic reduce individual household waste and join more volunteer groups? 
+</BlockQuote>
 
 ## Collecting information from the user interviews
 
@@ -95,35 +98,35 @@ Although interviewed users were different personas, all the feedback could be cl
 
 ## Landing on personas
 
-<div className="persona1 w-90 mt-100 mrl-auto">
-    <div className="flex flex-center ">
-     <GatsbyImage alt="A user interface sketch of the main page"  className="w-60" image={props.persona1}/>
-     <div  className="pl-48">
-           <h4 className="w-100 f-24 mb-16 mt-16">James, green committee lead</h4>
-            <p>“It has been <strong>difficult to have new people join. Because of Covid-19 I find It hard to talk to other members from different groups.</strong> People used to do great things together, now we stay home.”</p>
-     </div>
-    </div>
-    <Grid cols={2} mobileCols={1} mobileRows={2} className="mt-16"> 
-      <div className="w-90">
-          <h4 className="w-100 f-24 mb-16 mt-16">Pain points</h4>
-          <p>Psychical isolation, lack of communication. </p>
-      </div>
-        <div className="w-90">
-          <h4 className="f-24 mb-16 mt-16">Goal</h4>
-          <p>Get more people involved, resume activities.</p>
+<Grid rows={2} mobileRows={1} mobileCols={1} className="persona1 w-90 mt-100 mrl-auto">
+    <Grid cols={['1fr', '3.5fr']} mobileCols={1} mobileRows={1} className="m-justify-center">
+        <GatsbyImage imgStyle={{'object-fit': 'contain'}} alt="A user interface sketch of the main page" className="m-w-50 m-mb-32" image={props.persona1}/>
+        <div  className="pl-48 m-pl-0">
+            <h4 className="w-100 f-24 mb-16 mt-16">James, green committee lead</h4>
+                <p>“It has been <strong>difficult to have new people join. Because of Covid-19 I find It hard to talk to other members from different groups.</strong> People used to do great things together, now we stay home.”</p>
+        </div>
+    </Grid>
+    <Grid cols={2} mobileCols={1} mobileRows={1} className="mt-16"> 
+        <div>
+            <h4 className="w-100 f-24 mb-16 mt-16">Pain points</h4>
+            <p>Psychical isolation, lack of communication. </p>
+        </div>
+        <div >
+            <h4 className="f-24 mb-16 mt-16">Goal</h4>
+            <p>Get more people involved, resume activities.</p>
       </div>
     </Grid>
-</div>
+</Grid>
 
-<div className="persona2 w-90 mt-100 mrl-auto ">
-    <div className="flex flex-center ">
-     <GatsbyImage alt="A user interface sketch of the main page"  className="w-60" image={props.persona2}/>
-     <div  className="pl-48">
-           <h4 className="w-100f-24 mb-16 mt-16">Sophia, new to green committees </h4>
-            <p>“It is <strong>difficult to find new information about how to become one (green committee)</strong>, how to join one, where to find people.”</p>
-     </div>
-    </div>
-    <Grid cols={2} mobileCols={1} mobileRows={2} className="mt-16"> 
+<Grid rows={2} mobileRows={1} mobileCols={1} className="persona2 w-90 mt-100 mrl-auto">
+    <Grid cols={['1fr', '3.5fr']} mobileCols={1} mobileRows={1} className="m-justify-center">
+        <GatsbyImage imgStyle={{'object-fit': 'contain'}} alt="A user interface sketch of the main page" className="m-w-50 m-mb-32" image={props.persona2}/>
+        <div  className="pl-48 m-pl-0">
+            <h4 className="w-100 f-24 mb-16 mt-16">Sophia, new to green committees </h4>
+                <p>“It is <strong>difficult to find new information about how to become one (green committee)</strong>, how to join one, where to find people.”</p>
+        </div>
+    </Grid>
+    <Grid cols={2} mobileCols={1} mobileRows={1} className="mt-16"> 
       <div className="w-90">
           <h4 className="w-100 f-24 mb-16 mt-16">Pain points</h4>
           <p>Lack of accessible resources, lack of self-activism.</p>
@@ -133,7 +136,7 @@ Although interviewed users were different personas, all the feedback could be cl
           <p>Get involved into the movements, meet new people</p>
       </div>
     </Grid>
-</div>
+</Grid>
 
 ## Project goals
 
@@ -155,12 +158,13 @@ Although interviewed users were different personas, all the feedback could be cl
 </Grid>
 
 
-## Mapping out the experience
+## Creating user flow
 
 The challenge was to **organize the a large amount of articles** and data into a simple website that people would have no problem navigating though.
 
-<div className="m-auto w-60 mb-16 mt-50 m-w-100"> <GccFlowchart/></div>
-<Overflow className="mt-16" caption="Information architecture flowchart"></Overflow>
+<Overflow caption="Information architecture flowchart.">
+   <GccFlowchart/>
+</Overflow>
 
 ## From wireframes to website
 Though a few design iterations, I have developed a design that would allow people to sort the information on the web page to be able access needed articles. **The team decided to use WIX as a web page builder at the end, which limited the design freedom.**
@@ -205,7 +209,7 @@ One of the main project requirements was to construct a design that a website bu
 
 The website was published in February 2021.
 
-Visit live website
+<a href="https://www.greencommitteeconnect.com" target="_blank" className="linkToAWebsite">Visit GCC website</a>
 
 ## Lessons learned
 ### Syncing with the team in a short period of time

@@ -1,22 +1,22 @@
 home:
-  topText: 👋 Hello! My name is Valeria and I am a
+  topText: 👋 Hello! My name is Valeriia and I am a
   title: public warrior for accessible information architecture in UX science
   subText: I am always craving for design evolution and eye candy 😋
 footer:
   - title: Let's chat!
     subTitle: A am always looking for a new chat 😉
-  - title: Valeria Zub
+  - title: Valeriia Zub
     # subTitle: val.zubb@gmail.com
 about:
   title: About me
   location: Toronto, Canada
   profile: ../images/about/me.png
-  profileAlt: picture of Valeria Zub
+  profileAlt: picture of Valeriia Zub
   tags:
-    - 🎙 Podcast content consumer
-    - 🚲 Biking amateur
-    - 🌱 Environmentally driven vegetarian
+    - Podcast content consumer
+    - Biking amateur
+    - Environmentally driven vegetarian
   descriptions:
     - I thrive when challenges start with “how might we”, and when solutions evolve and they are never final.
-    - I believe in  design principles and goals. My previous coop at Aquatic Informatics has introduced me to accessible design from another angle.
+    - I believe in design principles and goals. Though work I have discovered  accessible design from another angle.
     - I’m excited to tell you more, let’s connect!

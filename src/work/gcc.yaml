@@ -1,11 +1,12 @@
 work:
   link: gcc
-  title: Green Committee Connect.
+  title: Green Committee Connect
   description: A web platform for people living in multi-residential buildings to join volunteer organizations to clean neighbourhoods and reduce waste produced by the community. 
-  imageSrc: ../images/gcc/gccHero.png
-  readMore: audi
+  imageSrc: ../images/gcc/cardHero.png
+  readMore: aqi
+  backgroundColor: "#E6F0E5"
   index: 3
   tags:
-    - User research
-    - Concept prototyping
-    - UX/UI
+    - User interviews
+    - Information architecture
+    - Web design

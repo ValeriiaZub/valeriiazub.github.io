@@ -1,0 +1,12 @@
+work:
+  link: aqi
+  title: UX internship at Aquatic Informatics
+  description: Creating single sign on for multiple product families.
+  imageSrc: ../images/aqi/home.png
+  backgroundColor: "#DFECF5"
+  readMore: audi
+  index: 1
+  tags:
+    - Stakeholder interviews
+    - MVP design
+    - User testing

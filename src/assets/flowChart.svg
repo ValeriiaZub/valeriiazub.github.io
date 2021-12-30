@@ -1,123 +1,124 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="736" height="428.65" viewBox="0 0 736 428.65">
-  <g id="Group_10813" data-name="Group 10813" transform="translate(-6091.204 -3514.786)">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1004 428.65">
+  <g id="Group_10794" data-name="Group 10794" transform="translate(-5958.25 -3514.786)">
     <g id="White_Button" data-name="White Button" transform="translate(6095.204 3587.286)">
-      <g id="Rectangle_270" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="154" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="153" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Success_stories" data-name="Success stories" transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Success stories</tspan></text>
     </g>
     <g id="White_Button-2" data-name="White Button" transform="translate(6314.204 3587.286)">
-      <g id="Rectangle_270-2" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-2" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="115" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="114" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Resources" transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Resources</tspan></text>
     </g>
     <g id="White_Button-3" data-name="White Button" transform="translate(6248.5 3653.786)">
-      <g id="Rectangle_270-3" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-3" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="333" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="332" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="I_am_a_part_of_an_existing_committee" data-name="I am a part of an existing committee" transform="translate(-111 33)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">I am a part of an existing committee</tspan></text>
     </g>
     <g id="White_Button-4" data-name="White Button" transform="translate(6304.782 3727.711)">
-      <g id="Rectangle_270-4" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-4" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="207" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="206" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Project_Management" data-name="Project Management" transform="translate(-111 33)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Project Management</tspan></text>
     </g>
     <g id="White_Button-5" data-name="White Button" transform="translate(6683.204 3727.711)">
-      <g id="Rectangle_270-5" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-5" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="271" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="270" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Pandemic_Quick_Resources" data-name="Pandemic &amp; Quick Resources" transform="translate(-111 33)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Pandemic &amp; Quick Resources</tspan></text>
     </g>
     <g id="White_Button-6" data-name="White Button" transform="translate(6683.204 3784.711)">
-      <g id="Rectangle_270-6" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-6" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="172" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="171" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Zero_waste_living" data-name="Zero waste living" transform="translate(-111 33)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Zero waste living</tspan></text>
     </g>
     <g id="White_Button-7" data-name="White Button" transform="translate(6304.754 3838.861)">
-      <g id="Rectangle_270-7" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-7" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="129" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="128" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Community" transform="translate(-111 33)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Community</tspan></text>
     </g>
     <g id="White_Button-8" data-name="White Button" transform="translate(6303.5 3783.286)">
-      <g id="Rectangle_270-8" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-8" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="223" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="222" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Donations_Resources" data-name="Donations &amp; Resources" transform="translate(-111 33)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Donations &amp; Resources</tspan></text>
     </g>
     <g id="White_Button-9" data-name="White Button" transform="translate(6683.204 3838.711)">
-      <g id="Rectangle_270-9" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-9" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="163" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="162" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Climate_Anxiety" data-name="Climate Anxiety" transform="translate(-111 33)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Climate Anxiety</tspan></text>
     </g>
     <g id="White_Button-10" data-name="White Button" transform="translate(6304.782 3894.437)">
-      <g id="Rectangle_270-10" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-10" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="183" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="182" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Indigenous_Toolkit" data-name="Indigenous Toolkit" transform="translate(-111 33)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Indigenous Toolkit</tspan></text>
     </g>
     <g id="White_Button-11" data-name="White Button" transform="translate(6683.204 3892.711)">
-      <g id="Rectangle_270-11" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-11" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="98" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="97" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="For_Kids" data-name="For Kids" transform="translate(-111 33)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">For Kids</tspan></text>
     </g>
     <g id="White_Button-12" data-name="White Button" transform="translate(6620 3653.786)">
-      <g id="Rectangle_270-12" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-12" data-name="Rectangle 270" transform="translate(-127 8)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="258" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="257" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="I_want_to_start_a_committee" data-name="I want to start a committee" transform="translate(-111 33)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">I want to start a committee</tspan></text>
     </g>
     <g id="White_Button-13" data-name="White Button" transform="translate(6494.204 3587.286)">
-      <g id="Rectangle_270-13" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-13" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="123" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="122" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Challenges" transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Challenges</tspan></text>
     </g>
     <g id="White_Button-14" data-name="White Button" transform="translate(6682.204 3587.286)">
-      <g id="Rectangle_270-14" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-14" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="149" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="148" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Join_Facebook" data-name="Join Facebook" transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Join Facebook</tspan></text>
     </g>
-    <path id="Path_11005" data-name="Path 11005" d="M6130.846,3702.787v220.15h46.908" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11012" data-name="Path 11012" d="M6130.846,3702.787v220.15h46.908" transform="translate(378.45)" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11006" data-name="Path 11006" d="M6177.754,3772.211H6131" transform="translate(0 -16)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_11005" data-name="Path 11005" d="M6130.846,3702.787v220.15h46.908" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_11012" data-name="Path 11012" d="M6130.846,3702.787v220.15h46.908" transform="translate(378.45)" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_11006" data-name="Path 11006" d="M6177.754,3772.211H6131" transform="translate(0 -16)" fill="none" stroke="#11154a" stroke-width="1"/>
     <path id="Path_11013" data-name="Path 11013" d="M6177.754,3772.211H6131" transform="translate(378.45 -16)" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11007" data-name="Path 11007" d="M6177.754,3827.786H6131" transform="translate(0 -16)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_11007" data-name="Path 11007" d="M6177.754,3827.786H6131" transform="translate(0 -16)" fill="none" stroke="#11154a" stroke-width="1"/>
     <path id="Path_11014" data-name="Path 11014" d="M6177.754,3827.786H6131" transform="translate(378.45 -16)" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11011" data-name="Path 11011" d="M6177.754,3827.786H6131" transform="translate(0 37.425)" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11015" data-name="Path 11015" d="M6177.754,3827.786H6131" transform="translate(378.45 37.425)" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11016" data-name="Path 11016" d="M6289.928,3661.786v-13.747h327.794v13.747" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11017" data-name="Path 11017" d="M6367.7,3624.346v21.923" transform="translate(0 1.94)" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11018" data-name="Path 11018" d="M6168.2,3585.286v-14.24h585.61v14.24" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11019" data-name="Path 11019" d="M6367.7,3585.286V3571.1" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11020" data-name="Path 11020" d="M6367.7,3585.286V3571.1" transform="translate(184)" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_11021" data-name="Path 11021" d="M6367.7,3597.364V3571.1" transform="translate(98.5 -26.318)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_11011" data-name="Path 11011" d="M6177.754,3827.786H6131" transform="translate(0 37.425)" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_11015" data-name="Path 11015" d="M6177.754,3827.786H6131" transform="translate(378.45 37.425)" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_11016" data-name="Path 11016" d="M6289.928,3661.786v-13.747h327.794v13.747" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_11017" data-name="Path 11017" d="M6367.7,3624.346v21.923" transform="translate(0 1.94)" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_11018" data-name="Path 11018" d="M6168.2,3585.286v-14.24h585.61v14.24" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_11019" data-name="Path 11019" d="M6367.7,3585.286V3571.1" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_11020" data-name="Path 11020" d="M6367.7,3585.286V3571.1" transform="translate(184)" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_11021" data-name="Path 11021" d="M6367.7,3597.364V3571.1" transform="translate(98.5 -26.318)" fill="none" stroke="#11154a" stroke-width="1"/>
     <g id="White_Button-15" data-name="White Button" transform="translate(6429.204 3516.786)">
-      <g id="Rectangle_270-15" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
+      <g id="Rectangle_270-15" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="82" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="81" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Home" transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Home</tspan></text>
     </g>
+    <rect id="Rectangle_2236" data-name="Rectangle 2236" width="1004" height="427.226" transform="translate(5958.25 3516.211)" fill="none"/>
   </g>
 </svg>

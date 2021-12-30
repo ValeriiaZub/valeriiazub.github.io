@@ -22,6 +22,7 @@ const IndexPage = ({ data }) => {
       <BoxImage
         key={work.title}
         image={work.imageSrc}
+        background={work.backgroundColor}
         title={work.title}
         description={work.description}
         tags={work.tags}
@@ -44,6 +45,7 @@ export const queryResults = graphql`
     allWorkYaml(sort: {fields: work___index}) {
       nodes {
         work {
+          backgroundColor
           description
           imageSrc {
             childImageSharp {

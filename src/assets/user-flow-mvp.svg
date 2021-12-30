@@ -1,52 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1006 153.479">
-  <g id="user-flow-mvp" transform="translate(-6574.25 -4627.521)">
-    <rect id="Rectangle_2219" data-name="Rectangle 2219" width="1006" height="153" transform="translate(6574.25 4627.521)" fill="none"/>
-    <g id="White_Button" data-name="White Button" transform="translate(6665 4697)">
-      <g id="Rectangle_270" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
-        <rect width="66" height="41" rx="4" stroke="none"/>
-        <rect x="0.5" y="0.5" width="65" height="40" rx="3.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 731 153">
+  <g id="Group_10821" data-name="Group 10821" transform="translate(-2212.75 2614.521)">
+    <g id="White_Button" data-name="White Button" transform="translate(2216.75 -2545.051)">
+      <g id="Rectangle_270" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#11154a" stroke-width="1">
+        <rect width="93" height="41" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="92" height="40" rx="3.5" fill="none"/>
       </g>
-      <text id="SSO" transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">SSO</tspan></text>
+      <text id="Sign_in_" data-name="Sign in " transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Sign in </tspan></text>
     </g>
-    <g id="White_Button-2" data-name="White Button" transform="translate(6771 4656)">
-      <g id="Rectangle_270-2" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
+    <g id="White_Button-2" data-name="White Button" transform="translate(2349.75 -2586.521)">
+      <g id="Rectangle_270-2" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#11154a" stroke-width="1">
         <rect width="312" height="41" rx="4" stroke="none"/>
         <rect x="0.5" y="0.5" width="311" height="40" rx="3.5" fill="none"/>
       </g>
       <text id="Have_access_to_all_purchased_apps" data-name="Have access to all purchased apps" transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Have access to all purchased apps</tspan></text>
     </g>
-    <g id="White_Button-3" data-name="White Button" transform="translate(6771 4742)">
-      <g id="Rectangle_270-3" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#ccc" stroke-width="1">
-        <rect width="250" height="41" rx="4" stroke="none"/>
-        <rect x="0.5" y="0.5" width="249" height="40" rx="3.5" fill="none"/>
+    <g id="White_Button-3" data-name="White Button" transform="translate(2349.75 -2500.521)">
+      <g id="Rectangle_270-3" data-name="Rectangle 270" transform="translate(-4 -2)" fill="#fff" stroke="#11154a" stroke-width="1">
+        <rect width="265" height="41" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="264" height="40" rx="3.5" fill="none"/>
       </g>
-      <text id="Access_AQI_app_portfolio_" data-name="Access AQI app “portfolio”" transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Access AQI app “portfolio”</tspan></text>
+      <text id="Access_portfolio_of_products" data-name="Access portfolio of products" transform="translate(12 23)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Access portfolio of products</tspan></text>
     </g>
-    <g id="White_Button-4" data-name="White Button" transform="translate(7119 4628)">
-      <g id="Rectangle_270-4" data-name="Rectangle 270" fill="#fff" stroke="#ccc" stroke-width="1">
-        <rect width="136" height="41" rx="4" stroke="none"/>
-        <rect x="0.5" y="0.5" width="135" height="40" rx="3.5" fill="none"/>
+    <g id="White_Button-4" data-name="White Button" transform="translate(2697.75 -2614.521)">
+      <g id="Rectangle_270-4" data-name="Rectangle 270" fill="#fff" stroke="#11154a" stroke-width="1">
+        <rect width="129" height="41" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="128" height="40" rx="3.5" fill="none"/>
       </g>
-      <text id="Launch_apps" data-name="Launch apps" transform="translate(16 25)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Launch apps</tspan></text>
+      <text id="Launch_app" data-name="Launch app" transform="translate(16 25)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Launch app</tspan></text>
     </g>
-    <g id="White_Button-5" data-name="White Button" transform="translate(7119 4679)">
-      <g id="Rectangle_270-5" data-name="Rectangle 270" fill="#fff" stroke="#ccc" stroke-width="1">
-        <rect width="365" height="41" rx="4" stroke="none"/>
-        <rect x="0.5" y="0.5" width="364" height="40" rx="3.5" fill="none"/>
+    <g id="White_Button-5" data-name="White Button" transform="translate(2697.75 -2563.521)">
+      <g id="Rectangle_270-5" data-name="Rectangle 270" fill="#fff" stroke="#11154a" stroke-width="1">
+        <rect width="246" height="41" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="245" height="40" rx="3.5" fill="none"/>
       </g>
-      <text id="Access_purchase_and_access_information" data-name="Access purchase and access information" transform="translate(16 25)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Access purchase and access information</tspan></text>
+      <text id="Access_billing_information" data-name="Access billing information" transform="translate(16 25)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Access billing information</tspan></text>
     </g>
-    <g id="White_Button-6" data-name="White Button" transform="translate(7038 4740)">
-      <g id="Rectangle_270-6" data-name="Rectangle 270" fill="#fff" stroke="#ccc" stroke-width="1">
-        <rect width="345" height="41" rx="4" stroke="none"/>
-        <rect x="0.5" y="0.5" width="344" height="40" rx="3.5" fill="none"/>
+    <g id="White_Button-6" data-name="White Button" transform="translate(2632.288 -2502.521)">
+      <g id="Rectangle_270-6" data-name="Rectangle 270" fill="#fff" stroke="#11154a" stroke-width="1">
+        <rect width="308" height="41" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="307" height="40" rx="3.5" fill="none"/>
       </g>
-      <text id="Learn_more_about_other_AQI_products" data-name="Learn more about other AQI products" transform="translate(16 25)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Learn more about other AQI products</tspan></text>
+      <text id="Learn_more_about_other_products" data-name="Learn more about other products" transform="translate(16 25)" fill="#11154a" font-size="18" font-family="NanumGothic"><tspan x="0" y="0">Learn more about other products</tspan></text>
     </g>
-    <path id="Path_1839" data-name="Path 1839" d="M6727,4713c30.614-2.089,12.356-39.735,40-40.689" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_1841" data-name="Path 1841" d="M6727,4700c30.614-1.422,12.356-27.035,40-27.685" transform="translate(352 -26.465)" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_1840" data-name="Path 1840" d="M6727,4672.311c30.614,2.212,12.356,42.072,40,43.082" transform="translate(0 42.618)" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_1842" data-name="Path 1842" d="M6727,4672.311c30.614,1.505,12.356,28.625,40,29.313" transform="translate(352 2.531)" fill="none" stroke="#707070" stroke-width="1"/>
-    <path id="Path_1843" data-name="Path 1843" d="M7017,4760.5h21.538" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_1839" data-name="Path 1839" d="M6727,4713c30.614-2.089,12.356-39.735,40-40.689" transform="translate(-4421.25 -7242.521)" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_1841" data-name="Path 1841" d="M6727,4700c30.614-1.422,12.356-27.035,40-27.685" transform="translate(-4069.25 -7268.986)" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_1840" data-name="Path 1840" d="M6727,4672.311c30.614,2.212,12.356,42.072,40,43.082" transform="translate(-4421.25 -7199.903)" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_1842" data-name="Path 1842" d="M6727,4672.311c30.614,1.505,12.356,28.625,40,29.313" transform="translate(-4069.25 -7239.989)" fill="none" stroke="#11154a" stroke-width="1"/>
+    <path id="Path_1843" data-name="Path 1843" d="M7017,4760.5h21.538" transform="translate(-4406.25 -7242.521)" fill="none" stroke="#11154a" stroke-width="1"/>
   </g>
 </svg>

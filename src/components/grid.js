@@ -3,6 +3,20 @@ import PropTypes from 'prop-types';
 
 const isBrowser = () => typeof window !== "undefined";
 
+const computeGrid = (value) => {
+    let gridCols = [];
+    if (value instanceof Array) {
+        for (let i of value) {
+            gridCols.push(i)
+        }
+    } else if (!isNaN(value)) {
+        for (let i = 0; i < value; i++) {
+            gridCols.push('1fr')
+        }
+    }
+    return gridCols.join(' ');
+}
+
 const Grid = ({ children, className, cols, rows, mobileCols, mobileRows }) => {
     const [width, setWidth] = useState(isBrowser() ? window.innerWidth : null);
 
@@ -24,14 +38,9 @@ const Grid = ({ children, className, cols, rows, mobileCols, mobileRows }) => {
     if (width !== null && mobileRows && width <= 900) {
         rowNumbers = mobileRows;
     }
-    let gridCols = '';
-    for (let i = 0; i < colNumbers; i++) {
-        gridCols += '1fr '
-    }
-    let gridRows = ''
-    for (let i = 0; i < rowNumbers; i++) {
-        gridRows += '1fr '
-    }
+    let gridCols = computeGrid(colNumbers);
+    let gridRows = computeGrid(rowNumbers)
+
     return <div className={className ?? ""} style={{
         display: 'grid',
         gridTemplateColumns: gridCols,
@@ -43,7 +52,7 @@ const Grid = ({ children, className, cols, rows, mobileCols, mobileRows }) => {
 
 Grid.propTypes = {
     className: PropTypes.string,
-    cols: PropTypes.number,
+    cols: PropTypes.oneOf([PropTypes.number, PropTypes.arrayOf(PropTypes.string)]),
     rows: PropTypes.number,
     children: PropTypes.node,
     listOnMobile: PropTypes.bool

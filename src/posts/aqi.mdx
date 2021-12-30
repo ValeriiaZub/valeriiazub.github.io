@@ -1,0 +1,308 @@
+---
+path: aqi
+title: App Home
+subTitle: Single sign on for multiple water quality product families.
+landingImage: ../images/aqi/hero-app-home.png
+readMore: audi
+images:
+    - ../images/aqi/App-switcher-target.png
+    - ../images/aqi/app-switcher.png
+    - ../images/aqi/benchmarking-miro-board.png
+    - ../images/aqi/collaborative-wireframimg.png
+    - ../images/aqi/discover-v1.png
+    - ../images/aqi/discover-v2.png
+    - ../images/aqi/hero-app-home.png
+    - ../images/aqi/app-home-final.png
+    - ../images/aqi/home-v1.png
+    - ../images/aqi/home-v2.png
+    - ../images/aqi/home.png
+    - ../images/aqi/login-v1.png
+    - ../images/aqi/login-v2.png
+    - ../images/aqi/marcel-persona.png
+    - ../images/aqi/me-in-the-office.png
+    - ../images/aqi/miro-interviews.png
+    - ../images/aqi/user-flow-mvp.png
+    - ../images/aqi/user-flow-target.png
+    - ../images/aqi/aqi_ux.png
+---
+
+<GatsbyImage alt="image spanning across the page showcasing the UI of App home for MVP" image={props['hero-app-home']} />
+
+<Grid cols={4} mobileCols={2} mobileRows={2} className="mt-50">
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Team</h4>
+        <p>UX team members</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Role</h4>
+        <p>Product designer</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Tools</h4>
+        <p>Stakeholder interviews, MVP & target mapping, user research, product design</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Duration</h4>
+        <p>9 weeks</p>
+    </div>
+</Grid>
+
+## About the project
+
+The first project that I was introduced to was driven by a business case of a
+“single pane of glass” — a portfolio, a single home for multiple families of
+water quality software solutions.
+
+## Problem statement 
+<BlockQuote background="#DFECF5"> How might we allow water quality specialists acess a portfolio of projects and services in a single touch?</BlockQuote>
+
+## Stakeholder interviews
+
+A series of stakeholders interviews were conducted with the goal to gather information from multiple working perspectives.
+
+<Grid cols={4} mobileCols={2} mobileRows={2} className="mb-16">
+    <div  className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Senior Developers</h4>
+        <p>Explained technological constrains</p>
+    </div>
+    <div  className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Sales</h4>
+        <p>Introduced to upsaling and subscriptions</p>
+    </div>
+    <div  className="p-16">
+        <h4 className="f-24 mb-16 mt-16">UX Designers</h4>
+        <p>Advocated for user needs and challenges</p>
+    </div>
+    <div  className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Project Managers</h4>
+        <p>Emphasized on business needs and future goals</p>
+    </div>
+</Grid>
+
+<Overflow caption="Interview documentation process. Blured due to confidentiality.">
+    <GatsbyImage alt="Interview documentation process. Blured due to confidentiality" image={props['miro-interviews']} />
+</Overflow>
+
+## Constraints and assumptions
+
+Starting the stakeholder interviews with talking to system architects I could understand major project challenges.
+
+### Architecture incompatibilities
+
+Each product was designed differently and many of them would not be able to easily “adopt” the signal sign in feature.
+
+### Usecase to be discovered
+
+All the known users only work within one to two products due to nature of their work responsibilities. There was little insight how people mightcoordinate multiple workflows.
+
+### Design maturity
+There was an opportunity to grow UX culture and the state of thr design by defining "seamless UX."
+
+## Benchmarking
+
+UX got onboard with the concept of SSO quite fast because we knew that many users due to legacy and security store their credentials in alternative ways, such as sticky notes 🥲.
+
+Thus, the team split competitors and single sign in models for market research and inspiration.
+
+<Overflow caption="Considered products for benchmarking">
+    <GatsbyImage alt="Considered products for benchmrking were broken down into user outcomes using wirtual white board" image={props["benchmarking-miro-board"]} />
+</Overflow>
+
+## Wireframing
+
+During the design sprint the team reviewed proposed features and a user flow was selected.
+
+<Overflow caption="Wireframes done by me for taget (left) and MVP (right). ">
+    <GatsbyImage className="m-auto" alt="A screenshot of a digital whiteboarding exersises done in Miro showcasing wireframes done by me for taget and MVP." image={props["collaborative-wireframimg"]} />
+</Overflow>
+
+## Key points
+
+After all the generative brainstorming is was crucial to stay pragmatic and keep MVP separate from target.
+
+### Minding scalability
+
+MVP had to hint on its future state, yet bring enough value to the customer to be validated as a successful product.
+
+### Recognizing technical constraints
+
+Single sign on concept has many people thinking about cross-platform data sharing. It was important to differentiate between those and keep MVP within the scope.
+
+## Landing on a persona
+
+Though series of user interviews a target user was defined.
+
+<Grid rows={2} mobileRows={1} mobileCols={1} className="persona3 w-90 mt-100 mrl-auto">
+    <Grid cols={['1fr', '3.5fr']} mobileCols={1} mobileRows={1} className="m-justify-center">
+        <GatsbyImage imgStyle={{'object-fit': 'contain'}} alt="Picture of persona Rosa who works a plant manager at a drinking water facility" className="m-w-50 m-mb-32" image={props["marcel-persona"]}/>
+        <div  className="pl-48 m-pl-0">
+            <h4 className="w-100 f-24 mb-16 mt-16">Rosa, manager at multiple water facilities</h4>
+                <p>“I just want my day to run smoothly, no accidents, no sudden expences and budget overruns. happy staff and happy people in the city drinking clear water.”</p>
+        </div>
+    </Grid>
+    <Grid cols={2} mobileCols={1} mobileRows={1} className="mt-16"> 
+        <div>
+            <h4 className="w-100 f-24 mb-16 mt-16">Pain points</h4>
+            <p>Budget overrund, staff safety, software crashes, low technology saviness</p>
+        </div>
+        <div >
+            <h4 className="f-24 mb-16 mt-16">Goal</h4>
+            <p>Have facilities run smoothly, be able to monitor activities though the software.</p>
+      </div>
+    </Grid>
+</Grid>
+
+## Insights from user interviews
+
+All the feedback could be classified into 4 main categories:
+
+### Subscriptions and trials is not a part of B2B relationship in water quality
+
+Plant operators spend a lot of time setting their environment using heavy data. Trying out new software is not a part of their day to day workflows, simply they have no time.
+
+### Users are craving for an “eye candy”
+
+All the users and stakeholders have made it clear they want pleasing visuals as a substential portfolio content.
+
+
+## User flow for MVP
+
+Considering stakeholders’ visions of this product success UX team has reiterated on selected screens by creating a user-flow. These user flows include key actions a user would be able to perform at the MVP and target stages of SSO.
+
+<div className="w-100 m-auto">
+    <UserFlowMvp/>
+</div>
+
+## User testing
+
+Both user and stakeholder UI discussions have given us feedback to reconsider major UI decisions. **After an additional round of critique from the UX team I was able to iterate on the design.**
+
+## Sign in
+
+<Overflow>
+    <Grid cols={2} mobileCols={1} mobileRows={2}>
+        <div className="p-16">
+  
+            <GatsbyImage alt="First iteration of signgle sign on page for logging in" image={props['login-v1']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Before: no band identity</h4>
+                <p>At the beginning sign in page looked basic and told very little story about the brand.</p>
+            </div>
+        </div>
+        <div className="p-16">
+            <GatsbyImage alt="Second iteration of signgle sign on page for logging in" image={props['login-v2']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">After: loads of marketing space</h4>
+                <p>Improved layout idea allows for marketing and brand-recognition space.</p>
+            </div>
+        </div>
+    </Grid>
+</Overflow>
+
+## Home
+
+<Overflow>
+    <Grid cols={2} mobileCols={1} mobileRows={2}>
+        <div className="p-16">
+            <GatsbyImage alt="First iteration of hame page for App Home" image={props['home-v1']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Before: “not an eye candy” - user x</h4>
+                <p>Although the page clearly communicated its purpose, none of the users showed excitement towards the tool.</p>
+            </div>
+        </div>
+        <div className="p-16">
+            <GatsbyImage alt="Second iteration of hame page for App Home" image={props['home-v2']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">After: launcher takes up space</h4>
+                <p>Giving more space to the launcher gives an opportunity for pleasant visuals to stand out.</p>
+            </div>
+        </div>
+    </Grid>
+</Overflow>
+
+
+## Discover
+
+<Overflow>
+    <Grid cols={2} mobileCols={1} mobileRows={2}>
+        <div className="p-16">
+            <GatsbyImage alt="An earlier interation of App Home discover page showing awalable tools and products" image={props['discover-v1']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Before: ’too much selling” - user x</h4>
+                <p>Discover space felt like a store where you cannot buy anything. Mostly because none of end users do not have the authority to purchase software.</p>
+            </div>
+        </div>
+        <div className="p-16">
+            <GatsbyImage alt="Discover page of App Home mock-up that presents portfolio of tools within AQI suite" image={props['discover-v2']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">After: visual content is up for marketing</h4>
+                <p>Following same pattern more visuals and more space were used, however, marketing would be able to take advantage of this space and generate content.</p>
+            </div>
+        </div>
+    </Grid>
+</Overflow>
+
+## Cross-app navigation
+
+<Overflow>
+    <Grid cols={2} mobileCols={1} mobileRows={2}>
+        <div className="p-16">
+            <GatsbyImage alt="An arlier mock-up that clanneges the idea of integrating an app-home within excisting app-switchers. Has little visual hirarchy, quite disorganised" image={props['app-switcher']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Before: conflicting visual hierarchy</h4>
+                <p>Two of the products already have internal app-switcher. Thus app home link had to be integrated within native switcher in the apps. And because each app is different is is incredibly hard to achieve perfect visual hierarchy and consistency balance.</p>
+            </div>
+        </div>
+        <div className="p-16">
+            <GatsbyImage alt="A mock-up that integrates notifications as an essential deep linking to projects within products." image={props['App-switcher-target']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">After: project-based notifications</h4>
+                <p>Instead of linking people to the apps, the ideas was to link people to the projects within the app by using notification styling.</p>
+            </div>
+        </div>
+    </Grid>
+</Overflow>
+
+
+## Stakeholders’ feedback
+
+### App Home is a digital touchpoint to all AQI products and services including training and support
+
+In SAAS world users want to have control over all of their applications and services from one place.
+
+### Google analytics will tell us if app home is a success
+
+This project helped the UX team to sraticulate the importasnce of lacking quantitatinve data.
+
+### Giving SSO more value
+
+Because there are many users who only have one app to launch, having marketing and training content will introduce current customers to a larger suite of products.
+
+## Presenting to stakeholders
+
+Following agile methodologies, the MVP was condenced to help stakeholders digest design decisions. Branding and marketing strategies were not part of the major converations just yet.
+
+<Overflow caption="Final design proposed to the larger stakeholders as MVP for App Home">
+    <GatsbyImage alt="A mock-up of app home main page which illustraits current products user have subscribed to" image={props['app-home-final']} />
+</Overflow>
+
+## Lessons learned
+
+### Understanding how to design without a brand
+
+One of the largest roadblocks was to understand how to **frame the design solution without referencing brand styling/guide.** I had to find a way to adopt by speculating which design guide is most probable to be used and framing my design so it could be translated into a different style with as little effort as possible.
+
+### Importance of advocating for a user
+
+Working in an engineering driven company has opened my eyes on some of the major constrains aspiring designers might face every day. Being one of 4 designers in a company with over 70 to 100 developers has taught me **how important it is to better articlate design decisions though amplifying voices of our current and future customers.** 
+
+### Learning business and developer languages: translating user needs into business value
+Although I have heard that different people use different vocabularies, I was fascinated how a **single argument has to be framed in various ways when talking to different stakeholders.** Each stakeholder has a different perspective on UX and the role of UX in products. More importantly, everyone had different levels of empathy towards the user. After doing multiple user testing, and inviting stakeholders to them, I was able to raise awareness for our users and develop necessary vocabulary.
+
+## Reflection
+
+App home has been **one of the most challenging yet rewarding projects I have worked on as a  designer**. I learned how to take on multiple tasks at the same time, collaborate with other designers, take feedback and respond to it. I discovered that the true design process is never linear, and always multidimensional. This has been a summer full of learnings and I can’t wait to apply all of them in my future projects.
+
+<Overflow caption="I was lucky to visit AQI office overlooking downtown Vancouver.">
+    <GatsbyImage alt="Valeriia Zub's portrait taken inside AQI main office located in Vancouver downtown on a sunny July afternoon." image={props['me-in-the-office']} />
+</Overflow>

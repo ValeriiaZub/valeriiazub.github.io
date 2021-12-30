@@ -35,7 +35,7 @@
 }
 
 /* colors */
-.background { background-color: #F5F5F7; }
+.background { background-color: #fafafa; }
 
 /* container */
 .container {
@@ -54,6 +54,7 @@
 body, html { overflow-x: hidden; padding: 0px; margin: 0px; background-color: #fafafa; }
 h1, h2, h3, h4, h5, h6 { font-family: myeongjo, sans-serif; font-style: bold; font-weight: 700; }
 p { font-size: 1.125rem; line-height: 1.875rem; }
+.linkToAWebsite { color:#11154A; text-decoration: underline; cursor: pointer;}
 
 /* utility milanese */
 .inline {  display: inline-block; }
@@ -128,11 +129,12 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
   margin-bottom: 11rem;
 }
 .tag {
-  border: 3px solid #11154A;
+  border: 2px solid #11154A;
   border-radius: 2rem;
-  padding: .5rem 1.25rem 0.75rem;
+  padding: .4rem 0.7rem 0.5rem;
   white-space: nowrap;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 1rem;
   display: inherit;
   background-color: transparent;
 }
@@ -149,6 +151,12 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
 
 .persona2{
   background-color: #11154a10;
+  border-radius: 10px ;
+  padding: 3rem 4rem 3rem 4rem;
+}
+
+.persona3{
+  background-color: #DFECF5;
   border-radius: 10px ;
   padding: 3rem 4rem 3rem 4rem;
 }
@@ -211,7 +219,7 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
   }
   .header { height: 20%; }
   .m-w-40 { width: 67%; }
-  .m-w-50 { width: 50%; }
+  .t-w-50 { width: 50%; }
   .ml-40 { margin-left: 47.5%;}
 }
 
@@ -232,15 +240,19 @@ p { font-size: 1.125rem; line-height: 1.875rem; }
     height: unset;
   }
   .m-w-100 { width: 100%; }
+  .m-w-50 { width: 50%; }
   .m-relative { position: relative; }
+  .m-justify-center { justify-items: center;}
   .m-m-0 { margin: 0px;}
+  .m-mb-32 { margin-bottom: 2rem;}
   .m-m-auto { margin: auto;}
+  .m-pt-32 { padding-top: 2rem;}
   .m-pt-16 { padding-top: 16px;}
   .m-pt-0 { padding-top: 0px;}
+  .m-pl-0 { padding-left: 0px;}
   .mr-90 { margin-right: 1rem;}
   .pr-32 { padding-right: 1rem;}
   .pl-32 { padding-left: 1rem;}
-  .m-pt-32 { padding-top: 2rem;}
   .m-w-300 { width: 300px; }
   .m-h-300 { height: 300px;}
   .footer {

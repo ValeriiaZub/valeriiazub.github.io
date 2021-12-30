@@ -10,6 +10,7 @@ import Layout from '../components/layout';
 // All off the personal components imported
 import Grid from '../components/grid'
 import Overflow from '../components/overflow'
+import BlockQuote from '../components/blockquote';
 
 // All of the svgs that I'll hopefully ever need
 import ArrowLeft from '../assets/arrow_left.svg';
@@ -48,6 +49,7 @@ const shortcodes = {
     UserFlowTarget,
     Grid,
     Overflow,
+    BlockQuote,
     GatsbyImage,
     ArrowLeft,
     ArrowRight,
@@ -97,16 +99,17 @@ const Post = ({ data }) => {
                 </MDXRenderer>
             </MDXProvider>
         </div>
-        {/* <section>
+        <section>
             <h2 className="f-56 mt-100">Discover more of my work</h2>
             <BoxImage
                 image={data.workYaml.work.imageSrc}
                 title={data.workYaml.work.title}
+                background={data.workYaml.work.backgroundColor}
                 description={data.workYaml.work.description}
                 tags={data.workYaml.work.tags}
-                link={`/${data.workYaml.work.link}`}
+                link={`/${data.workYaml.work.link}`} 
             />
-        </section> */}
+        </section>
     </Layout>
 }
 
@@ -138,6 +141,7 @@ export const query = graphql`
                 tags
                 title
                 readMore
+                backgroundColor
             }
         }
     }

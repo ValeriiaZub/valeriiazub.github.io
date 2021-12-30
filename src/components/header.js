@@ -4,7 +4,7 @@ import SocialLinks from "./socialLinks"
 
 const Header = ({ email, linkedin }) => (
   <header className="h-200">
-    <SocialLinks title="Valeria Zub" email={email} linkedin={linkedin} />
+    <SocialLinks title="Valeriia Zub" email={email} linkedin={linkedin} />
   </header>
 )
 

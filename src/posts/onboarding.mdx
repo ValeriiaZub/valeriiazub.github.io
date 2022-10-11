@@ -1,0 +1,156 @@
+---
+path: onboarding
+title: 70 hours of training in 20 minute onboarding
+subTitle: Easing learning curve for new flood sensors users from a newly acquired company.
+landingImage: ../images/onboarding/onboarding-hero.png
+readMore: aqi
+images:
+    - ../images/onboarding/onboarding-hero.png
+    - ../images/onboarding/1-testing-new-record-flood-levels.png
+    - ../images/onboarding/1-testing-old-assign-parameter-ranges.png
+    - ../images/onboarding/2-testing-new.png
+    - ../images/onboarding/2-testing-old-alerts.png
+    - ../images/onboarding/3-testing-new-preview.png
+    - ../images/onboarding/3-testing-old-review.png
+---
+
+<GatsbyImage alt="A snapthot of thee main pages of the onborading flow: alerts, data, and preview." image={props['onboarding-hero']} />
+
+<Grid cols={4} mobileCols={2} mobileRows={2} className="mt-50">
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Team</h4>
+        <p>Agile development team, project management, UX lead</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Role</h4>
+        <p>Product designer</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Tools</h4>
+        <p>Lean UX, Poadmap planning, user interviews, UX/UI</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Duration</h4>
+        <p>3 month</p>
+    </div>
+</Grid>
+
+## Background
+
+Being a part of a mega-corp means to produce good products for users you must collaborate with different organizations. For this project, I was looking how we can sell more of in-house flooding software to users from a newly acquired company who use flooding sensors.
+
+## Areas of business opportunity
+Dedicating time towards strategy was a key to a successful outcome. We looked into what our potential users can be lacking.
+<Grid cols={3} mobileCols={1} mobileRows={3} className="mt-50">
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Enhanced flooding maps</h4>
+        <p>Including topographical data could help users predict floods in action with accuracy.</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Software package deals</h4>
+        <p>Introducing new subscription plan to new customers could make it more appealing for them to transition.</p>
+    </div>
+    <div className="p-16">
+        <h4 className="f-24 mb-16 mt-16">Simple setup</h4>
+        <p>If well known long setup becomes shorter, people will be less reluctant to try.</p>
+    </div>
+</Grid>
+
+## Problem statement 
+<BlockQuote background="#EDEDF8"> How might we help hydrologists and flooding specialists from small municipalities respond to floods immediately after purchasing software?</BlockQuote>
+
+## Final design
+
+After evaluating all the business opportunities, a simple onboarding helps flooding responders setup their data in minutes.
+<div class="mt-50 mb-50"> 
+    <Impact alt="A bar chart comparing 70 hour setup following training material versus 20 minutes setup using onboarding. "/>
+</div>
+<GatsbyImage alt="One of the most important pages of the onboarding - Import data page, where users are requireds to imput their flooding data into a template CSV." image={props['1-testing-new-record-flood-levels']} />
+
+## Iterative process - design sprint
+
+I was coming to this project with 0 understanding of flood monitoring. Because I knew that the team will get it wrong many times, iterative approach to design was selected. 
+
+###  Day 1: problem & outcomes
+
+### Day 2: what we know today - expert interviews 
+
+### Day 3: competitor research 
+
+### Day 4: together-alone solution sketching  
+
+### Day 5: user journey mega map + planning 
+
+
+## User testing - key leanings
+
+The team selected 7 municipality flooding experts to test mock-ups. Though conversations we found out that only 5 are potential target users, which has helped the team to narrow down the MVP.
+
+
+<Overflow>
+    <Grid cols={2} mobileCols={1} mobileRows={2}>
+        <div className="p-16">
+  
+            <GatsbyImage alt="First iteration of parameter recording flow, where every single parameter for each lopcation must be recorder using input fields." image={props['1-testing-old-assign-parameter-ranges']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Uploading flooding data problem was too tedious</h4>
+                <p>Even small municipalities would have 50 to 300 locations to go though. Filling out 9 fields per location would take hydrologist hours to complete.</p>
+            </div>
+        </div>
+        <div className="p-16">
+            <GatsbyImage alt="Second iteration of the parameter recording flow, where users can follow auto-generated CSV template." image={props['1-testing-new-record-flood-levels']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Solution: pre-filled template</h4>
+                <p>Majority of municipalities already store threshold data in spreadsheets. Filling out a template that hey can send around the organization would help them get hit all done in minutes.</p>
+            </div>
+        </div>
+    </Grid>
+</Overflow>
+
+<Overflow>
+    <Grid cols={2} mobileCols={1} mobileRows={2}>
+        <div className="p-16">
+            <GatsbyImage alt="First iteration of assigning alerts, using checkboxes and pages per alert type." image={props['2-testing-old-alerts']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Alerts setup had unnecessary granularity</h4>
+                <p>While target municipalities have many locations they monitor, they only share data with a few governmental organizations, such as police.</p>
+            </div>
+        </div>
+        <div className="p-16">
+            <GatsbyImage alt="Second iteration of alerts, where users only need to select is certain users need to get alerts." image={props['2-testing-new']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Solution: suggested alerts</h4>
+                <p>By pulling data from a different applications, hydrologists only have to make a choice if a person can receive updates.</p>
+            </div>
+        </div>
+    </Grid>
+</Overflow>
+
+<Overflow>
+    <Grid cols={2} mobileCols={1} mobileRows={2}>
+        <div className="p-16">
+            <GatsbyImage alt="An earlier interation of paging preview using just a static image" image={props['3-testing-old-review']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Uclear publishing step</h4>
+                <p>Many users were shocked that they will be publishing data to the public immediately after the setup. All interviewees wanted to “try it out” first.</p>
+            </div>
+        </div>
+        <div className="p-16">
+            <GatsbyImage alt="A final preview design, showcasing top stpper present on top of working map, so users can test the software before publishing." image={props['3-testing-new-preview']} />
+            <div className="m-auto w-80">
+                <h4 className="f-24 mb-16 mt-16">Solution: built in preview</h4>
+                <p>At the end, users will are able to navigate though the system and play with it until ready to publish.</p>
+            </div>
+        </div>
+    </Grid>
+</Overflow>
+
+## Impact
+
+### 200 times faster setup
+Most importantly, small municipalities will be able to start using software by themselves without spending months on training.
+### Increased product interest
+Easy setup made  the product more appealing to many other customers, who do not have sensors we wanted to integrate with.
+### Unified user experience
+User testing showed higher delightful feedback from the users. It is bringing the user experience together from purchase to everyday use.
+

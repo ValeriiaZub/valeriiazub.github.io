@@ -1,12 +1,12 @@
 work:
   link: aqi
-  title: UX internship at Aquatic Informatics
-  description: Creating single sign on for multiple product families.
+  title: Single home for a suite of water quality products
+  description: Strategic SSO launch to support acquisition and growth business model.
   imageSrc: ../images/aqi/home.png
   backgroundColor: "#DFECF5"
   readMore: audi
-  index: 1
+  index: 2
   tags:
-    - Stakeholder interviews
-    - MVP design
-    - User testing
+    - Stakeholder Interviews
+    - Product planning 
+    - UX/UI

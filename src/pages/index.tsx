@@ -17,7 +17,7 @@ const IndexPage = ({ data }) => {
       title={home.title}
       topText={home.topText}
     />
-    <p className="f-regular mb-50">Scroll to see my work</p>
+    <h2 className="mb-50">Case studies</h2>
     {nodes.map(({ work }, i) =>
       <BoxImage
         key={work.title}

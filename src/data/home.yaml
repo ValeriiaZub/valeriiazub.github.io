@@ -1,11 +1,10 @@
 home:
-  topText: 👋 Hello! My name is Valeriia and I am a
-  title: public warrior for accessible information architecture in UX science
-  subText: I am always craving for design evolution and eye candy 😋
+  topText: Hello, my name is Valeriia, and
+  title: I translate user needs to business opportunities using design thinking tools
+  subText: "Now I'm leading feature discovery for DDoS & network traffic management product."
 footer:
-  - title: Let's chat!
-    subTitle: A am always looking for a new chat 😉
   - title: Valeriia Zub
+    subTitle: ""
     # subTitle: val.zubb@gmail.com
 about:
   title: About me
@@ -20,3 +19,19 @@ about:
     - I thrive when challenges start with “how might we”, and when solutions evolve and they are never final.
     - I believe in design principles and goals. Though work I have discovered  accessible design from another angle.
     - I’m excited to tell you more, let’s connect!
+practices:
+- number: 1
+  title: Workflow driven design approach
+  descriptions: 
+  - <strong>User interviews and quantitative research</strong> is the most valuable when embeded into several stages of product discovery phase.
+  - I always <strong> bring pivotal findings back</strong> to the execution team to grow their knowledge of product and target user base.
+- number: 2
+  title: Less handoff documentation, more collaboration
+  descriptions: 
+  - Tight <strong>collaboration with engineering</strong> helps me make accurate timeline estimates.
+  - <strong>Fluid product roadmap</strong> is an artifact of constant improvement.
+- number: 3
+  title: Deliver short term while playing long term
+  descriptions: 
+  - <strong>Constant alignment with product strategy</strong> informs short term product goals and engeneering focus.
+  - <strong>Planning for tech debt housekeeping</strong> as a part of a delivery can save $$$ developing future projects.

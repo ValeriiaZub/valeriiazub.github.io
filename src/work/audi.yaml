@@ -1,12 +1,12 @@
 work:
   link: audi
-  title: Passenger onboarding with myAudi app
-  description: Inspired by the theme "Mobility as a Service." Explored and research shared mobility. Presented at Audi RED x BIMM Hackathon.
+  title: Growing future buyer audience through shared mobility
+  description: Helping feature discoverability by giving passengers a full control over Audi interior features in shared mobility experience. 
   imageSrc: ../images/audi/home-index.png
   readMore: gcc
   backgroundColor: "#E3D8D8"
-  index: 2
+  index: 3
   tags:
     - Market research
-    - Concept prototyping
-    - UX/UI
+    - Design exercise 
+    - Hackathon winner

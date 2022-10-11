@@ -20,13 +20,18 @@ const AboutMe = () => {
                     location 
                     tags
                 }
+                practices {
+                    number
+                    descriptions
+                    title
+                }
             }
         }
     `)
-    const { about } = data.dataYaml;
+    const { about, practices } = data.dataYaml;
     const image = getImage(about.profile);
     return <div style={{ marginTop: 80 }}>
-        <h2 className="f-56">{about.title}</h2>
+        {/* <h2 className="f-56">{about.title}</h2>
         <div className="flex m-flex-column">
             <div className="w-200 h-200 m-w-300 m-h-300 m-m-auto">
                 <GatsbyImage style={{ width: 'inherit', height: 'inherit' }} image={image} alt={about.profileAlt} />
@@ -38,7 +43,21 @@ const AboutMe = () => {
                 </div>
                 {about.descriptions.map(description => <p key={description}>{description}</p>)}
             </div>
-        </div>
+        </div> */}
+
+        {/** Add your new classes down here */}
+        <h2 className='mt-50'>Key practices</h2>
+        {practices.map(({ title, number, descriptions}) => (
+            <div key={title} className='flex flex-row justify-between flex-center mb-16 p-48 border-radius-16 '>
+                <div className='w-30'>
+                    <h2 className="pl-32">{number}</h2>
+                    <h2 className="p-16 pl-32">{title}</h2>
+                </div> 
+                <div className='w-60 pl-32 pr-48'>
+                    {descriptions.map(d => <p dangerouslySetInnerHTML={{__html: d}}></p>)}
+                </div>
+            </div>
+        ))}
     </div>
 }
 

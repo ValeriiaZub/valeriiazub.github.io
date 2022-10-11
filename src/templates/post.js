@@ -19,6 +19,7 @@ import UserFlowTarget from '../assets/user-flow-target.svg';
 import ArrowRight from '../assets/arrow_right.svg';
 import ArrowDown from '../assets/arrow_down.svg';
 import AudioVolume from '../assets/audio-volume-large.svg';
+import BusinessCase from '../assets/business-case.svg';
 import CarHandover from '../assets/car-handover-large.svg';
 import Car from '../assets/car-large.svg';
 import ClimateAuto from '../assets/climate-auto-large.svg';
@@ -30,12 +31,14 @@ import Idea from '../assets/idea-large.svg';
 import IndicatorsDown from '../assets/indicators-down.svg';
 import IndicatorsUpDown from '../assets/indicators-up-down.svg';
 import InteriorSeat from '../assets/interior-seat.svg';
+import Impact from '../assets/impact.svg';
 import MobilePhone from '../assets/mobile-phone.svg';
 import Lightbulb from '../assets/lightbulb.svg';
 import Settings from '../assets/settings.svg';
 import People from '../assets/people.svg';
 import Paper from '../assets/paper.svg'; 
 import Research from '../assets/researchIcon.svg'; 
+import UserInterviewScale from '../assets/user-testing-scale.svg';
 import Wireframe from '../assets/wireframeIcon.svg'; 
 import ValetParking from '../assets/valet-parking.svg';
 import VolumeDown from '../assets/volume_down.svg';
@@ -55,6 +58,7 @@ const shortcodes = {
     ArrowRight,
     ArrowDown,
     AudioVolume,
+    BusinessCase,
     CarHandover,
     ClimateAuto,
     Code,
@@ -66,12 +70,14 @@ const shortcodes = {
     IndicatorsDown,
     IndicatorsUpDown,
     InteriorSeat,
+    Impact,
     Lightbulb,
     MobilePhone,
     Settings,
     People,
     Paper,
     Research,
+    UserInterviewScale,
     Wireframe,
     ValetParking,
     VolumeDown,
@@ -100,15 +106,17 @@ const Post = ({ data }) => {
             </MDXProvider>
         </div>
         <section>
-            <h2 className="f-56 mt-100">Discover more of my work</h2>
-            <BoxImage
-                image={data.workYaml.work.imageSrc}
-                title={data.workYaml.work.title}
-                background={data.workYaml.work.backgroundColor}
-                description={data.workYaml.work.description}
-                tags={data.workYaml.work.tags}
-                link={`/${data.workYaml.work.link}`} 
-            />
+            <h2 className="f-56 mt-100">Read another case study</h2>
+            {data?.workYaml?.work &&
+                <BoxImage
+                    image={data.workYaml.work.imageSrc}
+                    title={data.workYaml.work.title}
+                    background={data.workYaml.work.backgroundColor}
+                    description={data.workYaml.work.description}
+                    tags={data.workYaml.work.tags}
+                    link={`/${data.workYaml.work.link}`} 
+                />
+            }
         </section>
     </Layout>
 }

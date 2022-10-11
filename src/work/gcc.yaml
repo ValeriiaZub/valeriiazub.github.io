@@ -3,10 +3,10 @@ work:
   title: Green Committee Connect
   description: A web platform for people living in multi-residential buildings to join volunteer organizations to clean neighbourhoods and reduce waste produced by the community. 
   imageSrc: ../images/gcc/cardHero.png
-  readMore: aqi
+  readMore: onboarding
   backgroundColor: "#E6F0E5"
-  index: 3
+  index: 4
   tags:
-    - User interviews
+    - Quantitative research
     - Information architecture
     - Web design

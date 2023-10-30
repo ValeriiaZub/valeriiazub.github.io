@@ -1,12 +1,12 @@
 work:
   link: aqi
-  title: Single home for a suite of water quality products
-  description: Strategic SSO launch to support acquisition and growth business model.
+  title: Unified hub for water quality products
+  description: Strategic launch of single sign-on to facilitate growth and acquisition.
   imageSrc: ../images/aqi/home.png
   backgroundColor: "#DFECF5"
-  readMore: audi
+  readMore: onboarding
   index: 2
   tags:
     - Stakeholder Interviews
-    - Product planning 
+    - Product planning
     - UX/UI

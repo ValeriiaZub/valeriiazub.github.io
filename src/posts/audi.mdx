@@ -1,9 +1,9 @@
 ---
 path: audi
-title: Web solution to onboard passengers with myAudi app
-subTitle: Concept prototype inspired by mobility as a service at Audi RED x BIMM hackathon.
+title: Elevating shared mobility passenger experience
+subTitle: Inspired by Mobility as a Service at the Audi RED x BIMM Hackathon.
 landingImage: ../images/audi/home.png
-readMore: gcc
+readMore: aqi
 images:
     - ../images/audi/home.png
     - ../images/audi/audiHero.png
@@ -32,7 +32,7 @@ images:
 <Grid cols={4} mobileCols={2} mobileRows={2} className="mt-100"> 
     <div className="p-16">
         <h4 className="f-24 mb-16 mt-16">Team</h4>
-        <p>Alex Borthwick, Josh Vandenbor</p>
+        <p>My college friends: Alex B, Josh V</p>
     </div>
     <div className="p-16">
         <h4 className="f-24 mb-16 mt-16">Role</h4>
@@ -50,7 +50,7 @@ images:
 
 ## About the challenge
 
-During four weeks our team was exposed to the area of shared mobility and the future of car sales. During four events we had a chance to **learn more about new technology implementations in mobility services from Audi professionals,** as well as talk **through our ideas with Audi engineers and sales representatives and dealers** and get fresh perspective on growing and highly competitive ride sharing market.
+Our journey began with a profound exploration of shared mobility and the shifting dynamics of car sales. Through four immersive events,  ** we engaged with Audi professionals, engineers, sales representatives, and dealers.** These interactions provided us with a fresh perspective on the fiercely competitive ride-sharing market and cutting-edge technology implementations in mobility services.
 
 <Overflow className="mt-50" caption="Our team giving presentation to the judges and participants">
     <GatsbyImage alt="Our team giving presentation to the judges and participants" image={props["team-presenting"]} />
@@ -60,28 +60,28 @@ During four weeks our team was exposed to the area of shared mobility and the fu
 
 Mobility as a service is rather wide topic that was covers many areas of user experience. Though talking with stakeholders as well as researching growing trends **our team was interested in passenger experience** as if you were in Uber or Lyft.
 
-## Looking at existing app myAudi
+## Existing myAudi App Examination
 
-We looked at the existing platform Audi has, myAudi. Now the app is just for the car owners and **does not allow for passengers to access all the premium features** inside the car from their phones.
+Our investigation extended to the existing myAudi app, which catered primarily to car owners and did not provide passengers with access to the premium features within the vehicle.
 
 <GatsbyImage alt="Mock-up of the design soltion compared to the benchmark existing myAudi app" image={props.benchmarkVsSolution}/>
 <Overflow caption="Native app(left) VS designed solution(right)"></Overflow>
 
 ## User perspective
 
-When a passenger get into a car, they want the experience tailored to them. Imagine getting in an Uber and having access to seat massage! **Unfortunately, accessing premium features is awkward, and most customers probably won’t even realize the features exist** without being prompted by the driver.
+When a passenger steps into a car, they seek a tailored and immersive experience. Imagine getting into an Uber and having access to features like a seat massage. However, accessing these premium features was cumbersome, and most passengers remained oblivious to their existence without guidance from the driver.
 
 ## Problem statement
 
 
 <BlockQuote background="#F0E6E6">
-    How might we help Audi customers gain more control of their vehicle and give them better access to all the premium features they may not be aware of?
+    How might we help Audi customers get simple access to all the premium features they might not be aware of?
 </BlockQuote>
 
 
 ## Understanding passengers
 
-We defined four main options for the e-tron car users:
+We defined four primary categories of features for e-tron car users:
 
 <Grid cols={4} mobileCols={2} mobileRows={2} className="w-600 m-w-100 justify-center">
     <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
@@ -90,7 +90,7 @@ We defined four main options for the e-tron car users:
     </div>
     <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
         <Idea />
-        <h5 className="f-24 mb-16 mt-16 align-center">lights</h5>
+        <h5 className="f-24 mb-16 mt-16 align-center">lighting</h5>
     </div>
     <div style={{ width: 125}} className="flex flex-center flex-column justify-between">
         <InteriorSeat />
@@ -104,7 +104,7 @@ We defined four main options for the e-tron car users:
 
 ## Areas of focus
 
-Although bringing value and control to the passenger was the main idea, we acknowledged **that driver is the only person who tends to control everything in the car while driving.** We looked though driver’s lenses in order to simplify the ride sharing process, not interfere.
+While the passenger experience was at the forefront, we were aware of the fact that the driver plays a pivotal role in managing the vehicle while ensuring safety. Later aim was to simplify the ride-sharing process without interfering with the driver's responsibilities.
 
 <Grid rows={3} className="w-500 m-w-100">
     <div className="flex flex-center">
@@ -118,23 +118,23 @@ Although bringing value and control to the passenger was the main idea, we ackno
         <div className="h-100 mt-50"><CarHandover /></div>
         <div className="pl-48">
             <h2 className="f-24 mb-16 mt-16">Control</h2>
-            <p>Passengers and drivers need a safer way to control and make use of their vehicle.</p>
+            <p>Drivers need a way to control their vehicle at all times.</p>
         </div>
     </div>
     <div className="flex flex-center">
         <div className="h-100 mt-50"><ConnectKey /></div>
         <div className="pl-48">
             <h2 className="f-24 mb-16 mt-16">Communication</h2>
-            <p>Working towards safer driving experiences involving driver/passenger communication through alternative means is essential.</p>
+            <p>Safer driving experiences involves proper passenger communication and assistance.</p>
         </div>
     </div>
 </Grid>
 
 ## Designing for web
 
-Though talking to Audi engineers I have learned that software solutions that have access to car functionalities, such as on time start and truck opening have to go security checks in order to validate driver’s safety. **Software upgradability is low, because of the high deployment costs.** None of interviewed people would want to download an app for a single ride sharing experience.
+Our conversations with Audi engineers revealed that software solutions requiring access to car functionalities, such as remote start and trunk opening, must undergo rigorous security checks to ensure driver safety. Software upgrades were constrained due to high deployment costs.
 
-### myAudi application on the driver’s phone will act as a mediator between the ride-share and the car.
+### Our solution focuses on leveraging the existing myAudi application on the driver's phone to mediate between the ride-share and the car.
 
 <div style={{
     display: 'grid',
@@ -144,28 +144,28 @@ Though talking to Audi engineers I have learned that software solutions that hav
     marginTop: 36
 }}>
     <div className="flex flex-center justify-center "><Code /></div>
-    <p className="w-500 bold">QR code connects user to the Audi web application.</p>
+    <p className="w-500 bold">QR code connects user to our solution.</p>
     <div className="flex flex-center  justify-center "><IndicatorsDown /></div>
     <div></div>
     <div className="flex flex-center  justify-center "><MobilePhone /></div>
-    <p className="w-500 bold">Passengers phone establishes connection with driver’s phone.</p>
+    <p className="w-500 bold">The passengers phone establishes a connection with the driver’s phone.</p>
     <div className="flex flex-center  justify-center "><IndicatorsUpDown /></div>
     <div></div>
     <div className="flex flex-center  justify-center "><CirclePhone /></div>
-    <p className="w-500 bold">Driver’s phone receives and tolerates requests from passengers’ phones.</p>
+    <p className="w-500 bold">The driver’s phone receives and approves requests from passengers’ phones.</p>
     <div className="flex flex-center  justify-center "><IndicatorsUpDown /></div>
     <div></div>
     <div className="flex flex-center  justify-center "><Car/></div>
-    <p className="w-500 bold">Car dashboard tolerates and adjusts interior setings, such as audio volume and seating angle.</p>
+    <p className="w-500 bold">Car dashboard accomodates and adjusts interior setings, such as audio volume and seating positions.</p>
 </div>
 
-## Giving control to the driver
+## Prioratizing driver control
 
-A single car may have up to 6 passengers. All the 6 passengers might be changing the volume or air conditioning at the same time. Driving is still quite dangerous activity that needs full focus. With respect to driver we want to allow them to **set tolerances to specific seats in order to avoid features request conflicts between two or more paired devices and remain in control of the car.**
+Recognizing that a single car may host up to six passengers, we designed the system to allow the driver to set tolerances for specific seats. This prevented feature request conflicts between multiple paired devices, ensuring that the driver maintains control over the car.
 
-## Low fidelity prototyping
+## Low-fidelity prototyping
 
-In order to recreate original experience being driven/riding Audi car the **Audi UI design system has been decided to be used.** However, low fidelity wire framing has been done to validate visual hirerarchy.
+To validate the visual hierarchy and the overall user experience, we used the Audi UI design system and created low-fidelity wireframes.
 
 <Grid cols={3} rows={2} mobileCols={2} mobileRows={3}>
     <GatsbyImage alt="wireframe for thr home page for audi connect that leads to lights, seat controlls, climate, and audio" image={props['wireframe-home']}/>
@@ -177,12 +177,14 @@ In order to recreate original experience being driven/riding Audi car the **Audi
 </Grid>
 
 ## User flow
+Entire user flow captured the following key steps:
+
 
 <Grid cols={2}>
     <GatsbyImage alt="Mock-up showin UI when pairing" image={props.pairing} />
     <div className="flex flex-center justify-center flex-column">
         <h4 className="w-100 f-24 mb-16 mt-16">1. Pairing</h4>
-        <p className="mr-90">Using a QR-code displayed on car’s dashboard screen, sticker, or any other pairing method, a user would connect with a car through a driver’s phone. This requires the Internet connection.</p>
+        <p className="mr-90"> Connecting via a QR code window sticker or other methods.</p>
     </div>
 </Grid>
 
@@ -190,15 +192,17 @@ In order to recreate original experience being driven/riding Audi car the **Audi
     <GatsbyImage alt="Mock-up showin UI when selecting seat" image={props['seat-selection']} />
     <div className="flex flex-center justify-center flex-column">
         <h4 className="w-100 f-24 mb-16 mt-16">2. Seat selection</h4>
-        <p className="mr-90">By selecting a seat a passenger is able to use custom features that is applied to their seat.</p>
+        <p className="mr-90">Allowing passengers to customize features for their chosen seat.</p>
     </div>
 </Grid>
 
 <Grid cols={2}>
     <GatsbyImage alt="Mock-up showin UI when logging into the account" image={props.home} />
     <div className="flex flex-center justify-center flex-column">
-        <h4 className="w-100 f-24 mb-16 mt-16">3. Logging in</h4>
-        <p className="mr-90">The device is connected to the system and ready for making changes.</p>
+        <div>
+            <h4 className="w-100 f-24 mb-16 mt-16">3. Logging in</h4>
+            <p className="mr-90">Confirming the connection to the system.</p>
+        </div>
     </div>
 </Grid>
 
@@ -206,7 +210,7 @@ In order to recreate original experience being driven/riding Audi car the **Audi
     <GatsbyImage alt="Mock-up showin UI of all the avaliable features" image={props.audio} />
     <div className="flex flex-center justify-center flex-column">
         <h4 className="w-100 f-24 mb-16 mt-16">4. Accessing features</h4>
-        <p className="mr-90">Depending on the tolerance the driver would set, a passenger would have access to the most used interior settings from their phone.</p>
+        <p className="mr-90">Granting access to interior settings based on driver-defined tolerances.</p>
     </div>
 </Grid>
 
@@ -224,5 +228,4 @@ In order to recreate original experience being driven/riding Audi car the **Audi
 
 ## Lessons learned
 
-A year later I have learned that the marketing agency that was a sponsor has developed a route tracking app for e-tron, the latest Audi all electric SUV at the time. The nature of the competition was allowing us to think big and design far into the future. **In the real world I would make sure to understand what each stakeholder wants and business goals.** Perhaps, one day, a hackathon solution could be developed and put on a market. I'll never stop trying.
-
+One year later, we discovered that the marketing agency that sponsored the hackathon had developed a route tracking app for the Audi e-tron, the latest all-electric SUV at the time. Our experience at the hackathon allowed us to think boldly and envision the future. In the real world, understanding stakeholder goals and business objectives is essential. While the hackathon environment encouraged us to dream big, the practical implementation of such a solution requires a more comprehensive understanding of market dynamics. Our journey continues, and I will always be pushing the boundaries of innovation.

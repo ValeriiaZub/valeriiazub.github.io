@@ -1,9 +1,9 @@
 work:
   link: onboarding
-  title: 70 hours of training in 20 minute onboarding
-  description: Easing learning curve for new flood sensors users from a newly acquired company. 
+  title: 70 hours of training in 20 minutes of onboarding
+  description: Helping new flood sensor customers plug into real time flood monitoring software.
   imageSrc: ../images/onboarding/card-preview.png
-  readMore: aqi
+  readMore: gcc
   backgroundColor: "#EDEDF8"
   index: 1
   tags:

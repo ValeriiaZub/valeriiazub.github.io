@@ -1,9 +1,9 @@
 ---
 path: gcc
-title: Green Committee Connect
-subTitle: A web platform for people living in multi-residential buildings to join volunteer organizations to clean neighbourhoods and reduce waste produced by the community. 
+title: Green Committee Connect - revolutionizing sustainable living
+subTitle: A web platform for community building and waste reduction. 
 landingImage: ../images/gcc/gccHero.png
-readMore: aqi
+readMore: audi
 images:
     - ../images/gcc/flowChart.png
     - ../images/gcc/gccHero.png
@@ -58,43 +58,43 @@ images:
 
 ## What is a green committee?
 
-A green committee is a volunteer organization for people living in multi-residential buildings to come together and **clean up the neighbourhoods, and reduce waste produced by the community.**
-
+A Green Committee is a volunteer organization created for individuals living in multi-residential buildings to come together and collectively improve their neighborhoods, reduce waste, and promote sustainability.
 ## Problem statement
 
 <BlockQuote background="#cde2cc59">
-    How might we help people living in multi-residential buildings during pandemic reduce individual household waste and join more volunteer groups? 
+    How might we help people living in multi-residential buildings during pandemic reduce individual household waste and encourage more participation in volunteer groups?? 
 </BlockQuote>
 
 ## Collecting information from the user interviews
 
-Although interviewed users were different personas, all the feedback could be classified into 3 main categories:
+Our user interviews revealed several key insights:
 
 <Grid rows={3} className="w-500 m-w-100">
     <div className="flex flex-center">
         <div className="h-100 mt-50 min-w-30"><People /></div>
         <div className="pl-48">
-            <h2 className="f-24 mb-16 mt-16">No single communication line</h2>
+            <h2 className="f-24 mb-16 mt-16">Lack of a single communication line</h2>
             <p>Because many people are coming from different generations, they all are using various messengers and platforms for communication. User interviews have shown that if a person would not know how to reach out they wold be reluctant to look up how.</p>
         </div>
     </div>
     <div className="flex flex-center">
         <div className="h-100 mt-50 min-w-30 "><Paper /></div>
         <div className="pl-48">
-            <h2 className="f-24 mb-16 mt-16">Hard to find resources </h2>
-            <p>Some people pointed out that they would still want to try and manage their household waste, however, their main point of resources were people. Once they stopped seeing people, they found it daunting to look for multiple resources on the web, since recycling and waste practices in Toronto are complex.</p>
+            <h2 className="f-24 mb-16 mt-16">Difficulty to find resources </h2>
+            <p>Many interview participants pointed out that they would still want to try and manage their household waste, however, their main point of resources were people. Once they stopped seeing people due to covid-19, they found it daunting to look for multiple resources on the web, since recycling and waste practices in Toronto are not uniform.</p>
         </div>
     </div>
     <div className="flex flex-center">
         <div className="h-100 mt-50 min-w-30 "><Lightbulb /></div>
         <div className="pl-48">
-            <h2 className="f-24 mb-16 mt-16">People forget to to manage their waste at home </h2>
-            <p>Once the lockdown happened, majority of people stopped caring as much about their household waste as they were exposed less to the better practices and social pressure.</p>
+            <h2 className="f-24 mb-16 mt-16">Decline is household waste management </h2>
+            <p>With reduced exposure to better practices and social pressures during the pandemic, individuals were less motivated to manage their household waste.</p>
         </div>
     </div>
 </Grid>
 
 ## Landing on personas
+Two personas emerged from our research:
 
 <Grid rows={2} mobileRows={1} mobileCols={1} className="persona1 w-90 mt-100 mrl-auto">
     <Grid cols={['1fr', '3.5fr']} mobileCols={1} mobileRows={1} className="m-justify-center">
@@ -138,51 +138,50 @@ Although interviewed users were different personas, all the feedback could be cl
 
 ## Project goals
 
-Although interviewed users were different personas, all the feedback could be classified into 4 main categories:
+Our project goals revolved around four core areas:
 
 <Grid cols={3} mobileCols={1} mobileRows={3}> 
     <div className="p-16">
         <h4 className="f-24 mb-16 mt-16">Clear information architecture</h4>
-        <p>Text mus be easy to read, articles must be strucctured in a common way.</p>
+        <p>Ensuring that text was easy to read and that articles followed a consistent structure.</p>
     </div>
     <div className="p-16">
         <h4 className="f-24 mb-16 mt-16">Easy navigation</h4>
-        <p>Resource sorting, common architecture of the website.</p>
+        <p>Structuring resources for easy access and consistent website architecture.</p>
     </div>
     <div className="p-16">
-        <h4 className="f-24 mb-16 mt-16">Inclusive solution</h4>
-        <p>Responsive design, accessible colours. </p>
+        <h4 className="f-24 mb-16 mt-16">Inclusive web design</h4>
+        <p>Implementing responsive design and accessible color schemes.</p>
     </div>
 </Grid>
 
 
 ## Information architechture
 
-The challenge was to **organize the a large amount of articles** and data into a simple website that people would have no problem navigating though.
+We tackled the challenge of organizing a large amount of information into a simple and navigable website. The resulting architecture included sections for success stories, resources, involvement in existing committees, and information for those wanting to start a committee.
 
 <Overflow caption="Information architecture flowchart.">
    <GccFlowchart/>
 </Overflow>
 
 ## From wireframes to website
-Though a few design iterations, I have developed a design that would allow people to sort the information on the web page to be able access needed articles. **The team decided to use WIX as a web page builder at the end, which limited the design freedom.**
+Iterating through various design stages, we developed a design that allowed users to sort information for easy access. The team ultimately chose to use WIX as a website builder, which did impose some design limitations.
 <GatsbyImage alt="A user interface sketches using original content provided by the team: understand how to educe waste and be greener." image={props.wireframes}/>
 <Overflow caption="Wireframes, the first design stage."></Overflow>
 
 ## Making colours accessible
-I have received a huge support from the team to have full creative freedom. However, the team had made a decision to use defined brand colours made by previous marketing volunteer. Making an effort to make the design accessible, **I proposed a slightly different yet accessible colour palette.**
+In a bid to make the design accessible, I proposed a slightly altered color palette while maintaining the brand's identity.
 <GatsbyImage alt=" " image={props.newColours}/>
 <Overflow caption="Before and after adjusted colours for better visual accessibility."></Overflow>
 
 
 ## Handing off the website to the team
-After a few rounds of refinement the **design was handed off with instructions** on how to update content, design for mobile and desktop, and reorganize the webpage.
-
+The website was handed over with instructions on how to update content, design for mobile and desktop, and reorganize the webpage. The goal was to ensure that the team could maintain the website easily in the future.
 <Grid cols={2}>
     <GatsbyImage alt="A user interface with two main options leading to articles: find what your committee needs the most, and I'm already part of the" image={props.findResources} />
     <div className="flex flex-center justify-center flex-column">
-        <h4 className="w-100 f-24 mb-16 mt-16">Helping different people find relevant info</h4>
-        <p className="mr-90">Small sections were designed to link people who may have different background to the most relevant information. </p>
+        <h4 className="w-100 f-24 mb-16 mt-16">Helping different people find relevant information</h4>
+        <p className="mr-90">We designed small sections to guide individuals with different backgrounds toward the most relevant information.</p>
     </div>
 </Grid>
 
@@ -190,7 +189,7 @@ After a few rounds of refinement the **design was handed off with instructions**
     <GatsbyImage alt="A screenshot of resourceful links about low waste life" image={props.sortResources} />
     <div className="flex flex-center justify-center flex-column">
         <h4 className="w-100 f-24 mb-16 mt-16">Resourceful library of links in one place </h4>
-        <p className="mr-90">People searching for environmental and waste information would be able to access a wide variety of articles without spending extra time on searching them.</p>
+        <p className="mr-90">The resource library offered a wealth of information, allowing individuals seeking environmental and waste management resources to access a wide variety of articles with no effort.</p>
     </div>
 </Grid>
 
@@ -198,21 +197,17 @@ After a few rounds of refinement the **design was handed off with instructions**
     <GatsbyImage alt="A screenshot of featured challenges, activities people can do alone to feel as a part of a community." image={props.challenges} />
     <div className="flex flex-center justify-center flex-column">
         <h4 className="w-100 f-24 mb-16 mt-16">Inspiring challenges to power your community</h4>
-        <p className="mr-90">Once more and more people join the Facebook group, the challenges and success stories would be posted publicly for more people to join.</p>
+        <p className="mr-90">As more people joined the Facebook group, we posted challenges and success stories publicly to engage a broader audience.</p>
     </div>
 </Grid>
 
 ## How does it look now?
-One of the main project requirements was to construct a design that a website builder would be able to support, as the team would be taking care of the new content after the handoff.
-
 The website was published in February 2021.
 
 <a href="https://www.greencommitteeconnect.com" target="_blank" className="linkToAWebsite">Visit GCC website</a>
 
 ## Lessons learned
 ### Syncing with the team in a short period of time
-Because the project was just 4 weeks long, I found it extremely important to spend  time understanding the goal of the team, setting the expectations.
-
+Throughout this journey, I gained valuable insights into the importance of syncing with the team quickly, setting clear expectations, and understanding the user's needs. 
 ### Importance of learning about the user
-Because I never knew what a green committee was before I joined the project, I dedicated the time to learn about the people and their motivations.
-
+This experience reinforced the significance of immersing oneself in the user's world to design a meaningful solution.

@@ -1,9 +1,9 @@
 work:
   link: gcc
-  title: Green Committee Connect
-  description: A web platform for people living in multi-residential buildings to join volunteer organizations to clean neighbourhoods and reduce waste produced by the community. 
+  title: Green Committee Connect - revolutionizing sustainable living
+  description: A web platform for community building and waste reduction
   imageSrc: ../images/gcc/cardHero.png
-  readMore: onboarding
+  readMore: audi
   backgroundColor: "#E6F0E5"
   index: 4
   tags:

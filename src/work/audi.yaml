@@ -1,12 +1,12 @@
 work:
   link: audi
-  title: Growing future buyer audience through shared mobility
-  description: Helping feature discoverability by giving passengers a full control over Audi interior features in shared mobility experience. 
+  title: Elevating shared mobility passenger experience
+  description: Inspired by Mobility as a Service at the Audi RED x BIMM Hackathon.
   imageSrc: ../images/audi/home-index.png
-  readMore: gcc
+  readMore: aqi
   backgroundColor: "#E3D8D8"
   index: 3
   tags:
     - Market research
-    - Design exercise 
+    - Design exercise
     - Hackathon winner
